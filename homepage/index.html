@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="/owl_carousel/owl.carousel.css" />
+  <link rel="stylesheet" href="/owl_carousel/owl.theme.default.css" />
+</head>
+
+<body>
+  <!-- Header homepage -->
+  <header class="bg-cl-blue">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container-fluid">
+        <a class="navbar-brand text-white fs-3 me-auto hover" href="#">Booking.com</a>
+        <div class="offcanvas offcanvas-end bg-cl-blue" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
+              <a class="navbar-brand text-white fs-3 me-auto hover" href="#">Booking.com</a>
+            </h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#">VND</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#"><img
+                    src="https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/Us@3x.png"
+                    class="rounded-circle" alt="ENG" width="24" /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#">
+                  <i class="bi bi-question-circle" style="font-size: 24px"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#">List your property</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary mx-lg-2 my-2 register" href="#" type="button">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="btn btn-primary mx-lg-2 mx-3 my-2 register" href="#" type="button">Login</a>
+        <button class="navbar-toggler border border-0 bg-light" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-cl-blue">
+      <div class="container container-fluid">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-house"></i> Stays</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-airplane"></i> Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-globe-americas"></i>
+                Flight+hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-car-front-fill"></i> Card
+                rentals</a>
+            </li>
+          </ul>
+        </div>
+        <div></div>
+        <button class="navbar-toggler border border-0 bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="bi-arrow-right"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img
+          src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 c-img" alt="..." />
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+          <p class="display-4">Make yourself at home in paradise</p>
+          <h5 class="mt-5 fs-3 display-4">
+            Choose from cabins, houses and more
+          </h5>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img
+          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 c-img" alt="..." />
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+          <p class="display-4">Make yourself at home in paradise</p>
+          <h5 class="mt-5 fs-3 display-4">
+            Choose from cabins, houses and more
+          </h5>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img
+          src="https://images.unsplash.com/photo-1527206363095-ca2f054128b0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 c-img" alt="..." />
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+          <p class="display-4">Make yourself at home in paradise</p>
+          <h5 class="mt-5 fs-3 display-4">
+            Choose from cabins, houses and more
+          </h5>
+        </div>
+      </div>
+      <!-- loop -->
+      <div class="carousel-item c-item">
+        <img
+          src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 c-img" alt="..." />
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+          <p class="display-4">Make yourself at home in paradise</p>
+          <h5 class="mt-5 fs-3 display-4">
+            Choose from cabins, houses and more
+          </h5>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img
+          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 c-img" alt="..." />
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+          <p class="display-4">Make yourself at home in paradise</p>
+          <h5 class="mt-5 fs-3 display-4">
+            Choose from cabins, houses and more
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End header homepage -->
+
+  <!-- Search booking  -->
+  <div class="container container-fluid nav-search my-4">
+    <div class="row row-center align-items-center">
+      <div class="col">
+        <select class="search-hotel form-select width-search border border-warning shadow-none">
+          <option selected>Where are you going?</option>
+          <option value="Vũng Tàu">VungTau</option>
+          <option value="Hà Nội">HaNoi</option>
+          <option value="Hồ Chí Minh">HCM</option>
+          <option value="Vĩnh Long">VinhLong</option>
+          <option value="Đà Nẵng">DaNang</option>
+          <option value="Cần Thơ">CanTho</option>
+        </select>
+      </div>
+      <div class="col">
+        <input type="text" class="abc form-control width-search border border-warning shadow-none" name="daterange"
+          value="01/01/2024 - 01/15/2024" />
+      </div>
+      <div class="dropdown col">
+        <button class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning"
+          type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-person"></i>
+          2 Adults 1 Children 2 Room
+        </button>
+        <div class="dropdown-menu">
+          <div class="mx-3">
+            <div class="row my-3">
+              <div class="col">Adults</div>
+              <div class="col">
+                <input type="number" name="" id="" />
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col">Children</div>
+              <div class="col">
+                <input type="number" name="" id="" />
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col">Room</div>
+              <div class="col">
+                <input type="number" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <button type="submit"
+          class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary"
+          style="width: 300px" onclick="search_location()">
+          <i class="bi bi-search" style="float: left"></i>
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- End Search booking  -->
+
+  <!-- Offers -->
+  <div class="container container-fluid">
+    <div>
+      <h3>Offers</h3>
+      <p class="opacity-75">Promotions, deals and special offers for you</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="row g-0 offer px-3 py-3">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title my-2">
+                Planning a trip to the 2024 Summer Games?
+              </h5>
+              <p class="card-text my-2">
+                Brussels is a quick train ride from all the action
+              </p>
+              <a href="#" class="btn btn-primary my-2">Explore Brussels</a>
+            </div>
+          </div>
+          <div class="col-md-4" style="text-align: center">
+            <img
+              src="https://q-xx.bstatic.com/xdata/images/xphoto/500x500/320647664.png?k=698a838d781fe6952e506a3856a7fa5c22056d98e571eb3cf9e448afa98eba81&o="
+              class="img-fluid rounded my-2" alt="..." width="132" />
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="row g-0 offer offer-img px-3 py-3">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title my-2 text-white">Seize the moment</h5>
+              <p class="card-text my-2 text-white">
+                Save 15% or more when you book and stay before 1 October 2024
+              </p>
+              <a href="#" class="btn btn-primary my-2">Find Getaway Deals</a>
+            </div>
+          </div>
+          <div class="col-md-4" style="text-align: center">
+            <img
+              src="https://q-xx.bstatic.com/xdata/images/xphoto/714x300/316455553.jpeg?k=33c0362560b6aa7ff9ba2afc3ef8d120728107cf56cd1c006fcf0da8c1821735&o="
+              class="img-fluid rounded my-2" alt="..." width="100" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Offers -->
+
+  <!-- Trending destinations -->
+  <div class="container container-fluid mt-3">
+    <div>
+      <h3>Trending destinations</h3>
+      <p class="opacity-75">
+        Most popular choices for travellers from Vietnam
+      </p>
+    </div>
+    <div class="row">
+      <div class="row">
+        <div class="col search-location-hotel" value="Hồ Chí Minh">
+          <div class="card text-bg-dark border-0 hover-img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/DJI_0550-HDR-Pano.jpg/800px-DJI_0550-HDR-Pano.jpg"
+              class="card-img" height="240" alt="..." />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                Ho Chi Minh <i class="bi bi-search-heart"></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col search-location-hotel" value="Đà Nẵng">
+          <div class="card text-bg-dark border-0 hover-img">
+            <img src="https://cdn1.vietnamtourism.org.vn/images/content/934a27a870ce686ce1672a7b7117e576.jpg"
+              class="card-img" height="240" alt="..." />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                Da Nang <i class="bi bi-search-heart"></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col search-location-hotel" value="Vung Tau">
+          <div class="card text-bg-dark border-0 hover-img">
+            <img src="https://static.vinwonders.com/production/vung-tau-jesus-statue-banner.jpeg" class="card-img"
+              height="240" alt="..." />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                Vung Tau <i class="bi bi-search-heart"></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col search-location-hotel" value="Hà Nội">
+          <div class="card text-bg-dark border-0 hover-img">
+            <img src="https://gmgvietnam.vn/uploads/tin-tuc/anh-dai-dien/hanoi-1.jpg" class="card-img" height="240"
+              alt="..." />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                Ha Noi <i class="bi bi-search-heart"></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col search-location-hotel" value="Đà Lạt">
+          <div class="card text-bg-dark border-0 hover-img">
+            <img src="https://dalat-info.gov.vn:444/uploads/20220916082432_21A0455-Pano-2.jpg" class="card-img"
+              height="240" alt="..." />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                Da Lat <i class="bi bi-search-heart"></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Trending destinations -->
+
+  <!-- Explore VietNam -->
+  <div class="container container-fluid mt-3">
+    <div>
+      <h3>Explore Vietnam</h3>
+      <p class="opacity-75">These popular destinations have a lot to offer</p>
+    </div>
+    <div id="carouselExample" class="carousel carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://seaproperty.vn/wp-content/uploads/2023/05/vega-city-nha-trang-Gran-Melia.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Vung Tau" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vung Tau</h5>
+                <p class="card-text quantity-hotel">1,858 properties</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://bcp.cdnchinhphu.vn/Uploaded_VGP/vuthuydung/20200901/dalathoa.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Đà Lạt" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Da Lat</h5>
+                <p class="card-text quantity-hotel">2,149 properties</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://statics.vinpearl.com/is-ho-chi-minh-city-safe-01_1689422733.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hồ Chí Minh"
+                    style="width: 100%"><i class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ho Chi Minh City</h5>
+                <p class="card-text quantity-hotel">5,621 properties.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRThuol5OG8FL8cY5RRYwVsTL4muGuyHmixrQFQqKH8Aw&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Đà Nẵng" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Da Nang</h5>
+                <p class="card-text quantity-hotel">2,510 properties.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://lh5.googleusercontent.com/proxy/r9Mp2aMzEH6Qe47oCAz5Fk-VtbBDEo6GBf3mYrR72hSMKxXjcRBAP1aUKxTjGAACCMGc0Wqus5ZGECKenU2i1lzvyy-O3KzzG7USRyG1yovGV-NgdCuuf-2fMRvKHNCnTijZACa4twMizt6fahReerP_PnJMv4sbnQioG8v6qLiByAOfMxmlI7NLwcpOFFVDZws5NOuBsQ"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hà Nội" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ha Noi</h5>
+                <p class="card-text quantity-hotel">3,816 properties</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://louisianebrewhouse.com.vn/wp-content/uploads/2023/05/nha-trang-featured_News-featured-image.png"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Nha Trang"
+                    style="width: 100%"><i class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Nha Trang</h5>
+                <p class="card-text quantity-hotel">1,660 properties</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://cdnimgen.vietnamplus.vn/t620/uploaded/aobfuau/2022_07_08/hoi_an_1.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hội An" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hoi An</h5>
+                <p class="card-text quantity-hotel">1,010 properties</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://cdnimgen.vietnamplus.vn/t620/uploaded/aobfuau/2022_07_08/hoi_an_1.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Huế" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hue</h5>
+                <p class="card-text quantity-hotel">427 properties</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://www.tnktravel.com/wp-content/uploads/2017/03/phan-thiet-travel-guide.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Phan Thiết"
+                    style="width: 100%"><i class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Phan Thiet</h5>
+                <p class="card-text quantity-hotel">152properties</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://vcdn1-dulich.vnecdn.net/2022/07/29/muine-1659059278-5222-16590594-9037-6291-1659068912.jpg?w=500&h=300&q=100&dpr=2&fit=crop&s=gfIgyfsSYrdaeOP0Ard9fQ"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Mũi Né" style="width: 100%"><i
+                      class="fa fa-binoculars"></i> View</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mui Ne</h5>
+                <p class="card-text quantity-hotel">250 properties</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- End Explore VietNam -->
+
+  <!-- Browse by property type -->
+  <div class="container container-fluid">
+    <div>
+      <h3>Browse by property type</h3>
+    </div>
+    <div id="carouselExample-browse" class="carousel carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img
+                  src="https://static.leonardo-hotels.com/image/leonardohotelbucharestcitycenter_room_comfortdouble2_2022_4000x2600_7e18f254bc75491965d36cc312e8111f_1200x780_mobile_3.jpeg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hotel</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img
+                  src="https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Apartment</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Town_and_Country_fh000023.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Resorts</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img src="https://l.icdbcdn.com/oh/e1224176-909c-487a-9ae0-7d8460446be9.jpg?w=2080" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Villas</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXS-HtUBxK_XIjpFBiX-dqUu84CC1HHyUKcdMJYuYZUw&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cabins</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFF7V6eG6MWYUK5W1aRWxAhwEKhoRfUwX81cJgrLHQA&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cottages</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img
+                  src="https://www.travelandleisure.com/thmb/QdpF15-fuk2jTY0JAzJLsCIcTrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sun-rv-resorts-el-capitan-FWRVGLAMP1021-4b704f037276415d9ea28a590a77bec1.jpg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Glamping sites</h5>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="product-img image-wrapper-browse">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jh67EqmsKNB_pKludHD2uXD0RTnRhqKvIgMWX02dDg&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Services Apartment</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev translate" type="button" data-bs-target="#carouselExample-browse"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next translate" type="button" data-bs-target="#carouselExample-browse"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- End Browse by property type -->
+
+  <!-- Quick and easy trip planner -->
+  <div class="container container-fluid">
+    <div>
+      <h3>Quick and easy trip planner</h3>
+      <p class="opacity-75">
+        Pick a vibe and explore the top destinations in Vietnam
+      </p>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container-fluid">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button class="nav-link text-blue mx-3 py-2 active-quick" data-btn="1">
+                <i class="bi bi-cloud px-1"></i> Beach
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link text-black mx-3 hover-quick py-2" data-btn="2">
+                <i class="bi bi-person-walking px-1"></i> Outdoors
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link text-black mx-3 hover-quick py-2" data-btn="3">
+                <i class="bi bi-houses px-1"></i>City
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link text-black mx-3 hover-quick py-2" data-btn="4">
+                <i class="bi bi-arrow-clockwise px-1"></i>Relax
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div></div>
+        <button class="navbar-toggler border border-0 bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="bi-arrow-right"></span>
+        </button>
+      </div>
+    </nav>
+    <div id="carouselExample-quick" class="carousel carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active id-category" data-ci="1">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/06/15/1360385/top-10-bai-bien-vung-tau-dep-noi-tieng-ban-nhat-dinh-phai-di-202106160011575152.jpg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Vung Tau" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vung Tau</h5>
+                <p class="card-text">73km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://images.foody.vn/res/g25/240382/prof/s/foody-mobile-hmb-jpg-825-636002268021664096.jpg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Long Hải" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Long Hai</h5>
+                <p class="card-text">83km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/05/8-2.png" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hồ Tràm" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ho Tram</h5>
+                <p class="card-text">94km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://ik.imagekit.io/tvlk/blog/2023/10/bien-cam-binh-13.jpeg?tr=dpr-2,w-675" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="La Gi" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Lagi</h5>
+                <p class="card-text">128km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://cdn.tgdd.vn/Files/2021/07/14/1367991/tron-bo-kinh-nghiem-du-lich-mui-ke-ga-cuc-hap-dan-va-ly-thu-202107141018550277.jpg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="La Gi" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">La Gi</h5>
+                <p class="card-text">150km</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://ticotravel.com.vn/wp-content/uploads/2022/04/bien-phan-thiet-1-1430x600.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Phan Thiết" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Phan Thiet</h5>
+                <p class="card-text">163km away</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item id-category" data-ci="2">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://d13jio720g7qcs.cloudfront.net/images/guides/origin/60fb71abd1c51.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Mỹ Tho" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">My Tho</h5>
+                <p class="card-text">60km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRQipHQ6-ADmlfqRPszX4oAmQ2kp4xCVN6vVYp6OhD5A&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Bến Tre" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ben Tre</h5>
+                <p class="card-text">69km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/503249930.jpg?k=caffef4bd4ad12ec9fc851734288bc27f051832a15da532fd0e4b7401cad1f17&o=&hp=1"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Vĩnh Long" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vinh Long</h5>
+                <p class="card-text">95km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkWxtwPY61Skrf2mz8bS1hI7_7l2HswLZdwoKNdJYzRg&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Đà Lạt" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Da Lat</h5>
+                <p class="card-text">235km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCj_suZoKFmzsxweSOsvqgsVhQ1LQLYT2NuKEANfaUSw&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Buôn Mê Thuột"
+                    style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Buon Me Thuot</h5>
+                <p class="card-text">259km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAOAMPdoQLt6MZ67gVhXd2FAT3tZcEM4N7BwDAsO65A&s"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2  search-location-hotel" value="Plieku" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Plieku</h5>
+                <p class="card-text">383km away</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item id-category" data-ci="3">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://lesrivesexperience.com/wp-content/uploads/2018/11/sunset-on-saigon-river.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hồ Chí Minh"
+                    style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ho Chi Minh</h5>
+                <p class="card-text">10km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://vietnam.travel/sites/default/files/inline-images/11125-Qu%E1%BA%A3ng%20Nam-huybank%40gmail.com-hoi%20an%20ve%20dem%20.jpg"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hội An" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hoi An</h5>
+                <p class="card-text">592km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://statics.vinpearl.com/hue-imperial-city-1_1678383446.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Huế" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hue</h5>
+                <p class="card-text">673km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img
+                  src="https://content.r9cdn.net/rimg/dimg/9f/f9/b80f2b97-city-34211-162bb44cf03.jpg?crop=true&width=1020&height=498"
+                  alt="" class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Hà Nội" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ha Noi</h5>
+                <p class="card-text">1.138km away</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://authentiktravel.com/media/ckeditor/visit%20dien%20bien%20phu%20city.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Điện Biên Phủ"
+                    style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Dien Bien Phu</h5>
+                <p class="card-text">1,237km away</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item id-category" data-ci="4">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 14rem">
+              <div class="product-img image-wrapper">
+                <img src="https://cdn3.ivivu.com/2023/07/Victoria-Ch%C3%A2u-%C4%90%E1%BB%91c-ivivu-2.jpg" alt=""
+                  class="img-fluid d-block mx-auto" />
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-2 search-location-hotel" value="Châu Đốc" style="width: 100%">
+                    <i class="fa fa-binoculars"></i> View
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Chau Doc</h5>
+                <p class="card-text">164km away</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Quick and easy trip planner -->
+
+  <!-- Get inspiration for your next trip -->
+  <div class="container container-fluid">
+    <div>
+      <h3>Get inspiration for your next trip</h3>
+    </div>
+    <div id="carouselExample-browse" class="carousel carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://cf.bstatic.com/xdata/images/xphoto/720x405/292260574.webp?k=efc8e339ea66514c3b64c5bc891f1608d22a40eb23b853bc0c9ecb93c541ef10&o="
+                  alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  6 best ryokans in Japan to rejuvenate yourself
+                </h5>
+                <p class="card-text">
+                  Discover unmissable ryokans to relax and unwind in style.
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://cf.bstatic.com/xdata/images/xphoto/540x405/290483794.webp?k=916f7bac0ccdb08efcb269ad29cc10816ab66cd1671359066d23d32fb17b5c39&o="
+                  alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  7 best places in Asia to celebrate Christmas
+                </h5>
+                <p class="card-text">
+                  Discover the shimmering lights and festive sights of Asia's holiday season.
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://cf.bstatic.com/xdata/images/xphoto/540x405/289320924.webp?k=99a00f2907495aaeb6396695c053e3d8b95fb05619b10e76c89fb1f7d1fec427&o="
+                  alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  6 magical Christmas experiences in London
+                </h5>
+                <p class="card-text">
+                  A London Christmas: cherished traditions and new discoveries.
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://cf.bstatic.com/xdata/images/xphoto/540x405/288594543.webp?k=7a96a2b4190146f63068bd0604a916c0c885c4899a527e24a9b39487d4ae50b8&o="
+                  alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Top 5 places for winter sports in South Korea
+                </h5>
+                <p class="card-text">
+                  Ski Olympic slopes and jumps, before relaxing in a traditional Korean bathhouse
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Get inspiration for your next trip -->
+
+  <!-- Stay at our top unique properties -->
+  <!-- <div class="container container-fluid">
+      <div>
+        <h3>Stay at our top unique properties</h3>
+        <p class="opacity-75">
+          From castles and villas to boats and igloos, we've got it all
+        </p>
+      </div>
+      <div id="carouselExample-stays" class="carousel carousel-dark">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+              <div class="card" style="width: 25rem">
+                <div class="image-wrapper-browse">
+                  <img
+                    src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Aparthotel Stare Miasto</h5>
+                  <p class="card-text">Old Town, Poland, Kraków</p>
+                  <ul class="list-group list-group-flush">
+                    <li
+                      class="list-group-item card-price fw-bold rounded-circle"
+                    >
+                      8.7
+                    </li>
+                    <li class="list-group-item">2,801 reviews</li>
+                    <li class="list-group-item">
+                      Starting from
+                      <span class="fs-5 fw-bold">VND 3,128,346</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card" style="width: 25rem">
+                <div class="image-wrapper-browse">
+                  <img
+                    src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">3 Epoques Apartments by Adrez</h5>
+                  <p class="card-text">Prague 1, Czech Republic, Praha 1</p>
+                  <ul class="list-group list-group-flush">
+                    <li
+                      class="list-group-item card-price fw-bold rounded-circle"
+                    >
+                      8.7
+                    </li>
+                    <li class="list-group-item">505 reviews</li>
+                    <li class="list-group-item">
+                      Starting from
+                      <span class="fs-5 fw-bold">VND 1,921,032</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card" style="width: 25rem">
+                <div class="image-wrapper-browse">
+                  <img
+                    src="https://cf.bstatic.com/xdata/images/hotel/square600/87428762.webp?k=de5db8fe94cbfe08d3bf16d3c86def035fd73b43ee497cffe27b03363764e0e2&o="
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">7Seasons Apartments Budapest</h5>
+                  <p class="card-text">06. Terézváros, Hungary, Budapest</p>
+                  <ul class="list-group list-group-flush">
+                    <li
+                      class="list-group-item card-price fw-bold rounded-circle"
+                    >
+                      8.8
+                    </li>
+                    <li class="list-group-item">10,803 reviews</li>
+                    <li class="list-group-item">
+                      Starting from
+                      <span class="fs-5 fw-bold">VND 2,800,851</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card" style="width: 25rem">
+                <div class="image-wrapper-browse">
+                  <img
+                    src="https://cf.bstatic.com/xdata/images/hotel/square600/44146554.webp?k=2b0fd82f2d6230cc7c3d20f4a19f141da3f14c25fc8402a8f9334e8bc0c98508&o="
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">AVilla Domina</h5>
+                  <p class="card-text">Split City Centre, Croatia, Split</p>
+                  <ul class="list-group list-group-flush">
+                    <li
+                      class="list-group-item card-price fw-bold rounded-circle"
+                    >
+                      9.3
+                    </li>
+                    <li class="list-group-item">2,801 reviews</li>
+                    <li class="list-group-item">
+                      Starting from
+                      <span class="fs-5 fw-bold">VND 1,701,675</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card" style="width: 25rem">
+                <div class="image-wrapper-browse">
+                  <img
+                    src="https://cf.bstatic.com/xdata/images/hotel/square600/44146554.webp?k=2b0fd82f2d6230cc7c3d20f4a19f141da3f14c25fc8402a8f9334e8bc0c98508&o="
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">AVilla Domina</h5>
+                  <p class="card-text">Split City Centre, Croatia, Split</p>
+                  <ul class="list-group list-group-flush">
+                    <li
+                      class="list-group-item card-price fw-bold rounded-circle"
+                    >
+                      9.3
+                    </li>
+                    <li class="list-group-item">2,801 reviews</li>
+                    <li class="list-group-item">
+                      Starting from
+                      <span class="fs-5 fw-bold">VND 1,701,675</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev translate"
+          type="button"
+          data-bs-target="#carouselExample-stays"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next translate"
+          type="button"
+          data-bs-target="#carouselExample-stays"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> -->
+
+
+  <div class="container container-fluid">
+    <div>
+      <h3>Stay at our top unique properties</h3>
+      <p class="opacity-75">
+        From castles and villas to boats and igloos, we've got it all
+      </p>
+    </div>
+
+    <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Old Town, Poland, Kraków</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">Aparthotel Stare
+            Miasto</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Prague 1, Czech Republic, Praha 1</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">3 Epoques Apartments by
+            Adrez</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/87428762.webp?k=de5db8fe94cbfe08d3bf16d3c86def035fd73b43ee497cffe27b03363764e0e2&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">06. Terézváros, Hungary, Budapest</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">7Seasons Apartments
+            Budapest</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/44146554.webp?k=2b0fd82f2d6230cc7c3d20f4a19f141da3f14c25fc8402a8f9334e8bc0c98508&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Split City Centre, Croatia, Split
+
+          </span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">AVilla Domina</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Prague 1, Czech Republic, Praha 1</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">3 Epoques Apartments by
+            Adrez</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Prague 1, Czech Republic, Praha 1</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">3 Epoques Apartments by
+            Adrez</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Prague 1, Czech Republic, Praha 1</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">3 Epoques Apartments by
+            Adrez</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Prague 1, Czech Republic, Praha 1</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">3 Epoques Apartments by
+            Adrez</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col product-item mx-auto">
+        <div class="product-img cards-wrapper">
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/square600/121402222.webp?k=f7f266ab09f90ddea4464309eca14d79429afe4218ced6887cb52f82c42c03dc&o="
+            alt="" class="img-fluid d-block mx-auto" />
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-2" style="width: 100%">
+              <i class="fa fa-binoculars"></i> View
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info p-3">
+          <span class="product-type">Prague 1, Czech Republic, Praha 1</span>
+          <a href="#" class="d-block text-dark text-decoration-none py-2 product-name fw-bold">3 Epoques Apartments by
+            Adrez</a>
+          <li class="list-group-item">
+            Starting from
+            <span class="fs-5 fw-bold product-price">VND 3,128,346</span>
+          </li>
+          <div class="rating d-flex mt-1">
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>
+              <i class="fa fa-star"></i>
+            </span>
+            <span>(25 reviews)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Stay at our top unique properties -->
+  <!-- Footer -->
+  <div class="container container-fluid my-4 py-4">
+    <div class="row">
+      <p class="text-center opacity-75">
+        Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+      </p>
+      <div class="col text-center">
+        <img
+          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
+          alt="" />
+      </div>
+      <div class="col text-center">
+        <img
+          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
+          alt="" />
+      </div>
+      <div class="col text-center">
+        <img
+          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
+          alt="" />
+      </div>
+      <div class="col text-center">
+        <img
+          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
+          alt="" />
+      </div>
+      <div class="col text-center">
+        <img
+          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
+          alt="" />
+      </div>
+    </div>
+  </div>
+  <!--End Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <!-- owl carousel -->
+  <script src="/owl_carousel/owl.carousel.js"></script>
+  <script src="index.js"></script>
+  <script>
+    $(function () {
+      $('input[name="daterange"]').daterangepicker({
+          opens: "left",
+        },
+        function (start, end, label) {
+          let day_s = parseInt(start.format("DD"));
+          let month_s = parseInt(start.format("MM"));
+          let year_s = parseInt(start.format("YY"));
+
+          let day_e = parseInt(end.format("DD"));
+          let month_e = parseInt(end.format("MM"));
+          let year_e = parseInt(end.format("YY"));;
+          let date = {
+            day_start: day_s,
+            month_start: month_s,
+            year_start: year_s,
+            day_end: day_e,
+            month_end: month_e,
+            year_end: year_e
+          }
+          localStorage.setItem("date_time", JSON.stringify(date))
+        }
+      );
+    });
+  </script>
+</body>
+
+</html>

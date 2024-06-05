@@ -1,0 +1,25 @@
+.bg-cl-blue {
+  background-color: #003b95;
+}
+.register {
+  background-color: white;
+  color: #003b95;
+  padding: 4px 12px;
+  border: 1px solid white;
+  font-weight: 500;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+.hover:hover {
+  color: rgb(228, 228, 234) !important;
+}
+.hover-box {
+  border-radius: 8px;
+}
+.hover-box:hover {
+  background-color: #1a4fa0 !important;
+  border-radius: 8px;
+  padding: 4px;
+}
