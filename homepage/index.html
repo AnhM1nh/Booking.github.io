@@ -172,33 +172,34 @@
         </select>
       </div>
       <div class="col">
-        <input type="text" class="abc form-control width-search border border-warning shadow-none" name="daterange"
-          value="01/01/2024 - 01/15/2024" />
+        <input type="text" class="form-control width-search border border-warning shadow-none" name="daterange"
+          id="date-time" onchange="handleFormatDate()" value="1/15/2024 - 1/18/2024" />
       </div>
       <div class="dropdown col">
-        <button class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning"
-          type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button id="Adults_children_room"
+          class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning" type="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
           <i class="bi bi-person"></i>
-          2 Adults 1 Children 2 Room
+          2 Adults 0 Children 0 Room
         </button>
         <div class="dropdown-menu">
           <div class="mx-3">
             <div class="row my-3">
               <div class="col">Adults</div>
               <div class="col">
-                <input type="number" name="" id="" />
+                <input type="number" name="" id="" value="2" min="0" class="non-negative-input" />
               </div>
             </div>
             <div class="row my-3">
               <div class="col">Children</div>
               <div class="col">
-                <input type="number" name="" id="" />
+                <input type="number" name="" id="" value="0" min="0" class="non-negative-input" />
               </div>
             </div>
             <div class="row my-3">
               <div class="col">Room</div>
               <div class="col">
-                <input type="number" name="" id="" />
+                <input type="number" name="" id="" value="0" min="0" class="non-negative-input" />
               </div>
             </div>
           </div>
@@ -206,7 +207,7 @@
       </div>
       <div class="col">
         <button type="submit"
-          class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary"
+          class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary abc "
           style="width: 300px" onclick="search_location()">
           <i class="bi bi-search" style="float: left"></i>
           Search
@@ -1244,7 +1245,6 @@
       </div>
     </div> -->
 
-
   <div class="container container-fluid">
     <div>
       <h3>Stay at our top unique properties</h3>
@@ -1633,29 +1633,39 @@
         Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
       </p>
       <div class="col text-center">
-        <img
-          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
-          alt="" />
+        <a href="">
+          <img
+            src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
+            alt="" />
+        </a>
       </div>
       <div class="col text-center">
-        <img
-          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
-          alt="" />
+        <a href="">
+          <img
+            src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
+            alt="" />
+        </a>
       </div>
       <div class="col text-center">
-        <img
-          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
-          alt="" />
+        <a href="">
+          <img
+            src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
+            alt="" />
+        </a>
       </div>
       <div class="col text-center">
-        <img
-          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
-          alt="" />
+        <a href="">
+          <img
+            src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
+            alt="" />
+        </a>
       </div>
       <div class="col text-center">
-        <img
-          src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
-          alt="" />
+        <a href="">
+          <img
+            src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
+            alt="" />
+        </a>
       </div>
     </div>
   </div>
@@ -1668,8 +1678,13 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
   <!-- owl carousel -->
   <script src="/owl_carousel/owl.carousel.js"></script>
-  <script src="index.js"></script>
+  <script type="module" src="index.js"></script>
   <script>
+    // import {
+    //   handleFormatDate,
+    //   formatDate
+    // } from '../formatDate.js';
+
     $(function () {
       $('input[name="daterange"]').daterangepicker({
           opens: "left",
@@ -1695,6 +1710,8 @@
       );
     });
   </script>
+  <script src="../formatDate.js"></script>
+
 </body>
 
 </html>

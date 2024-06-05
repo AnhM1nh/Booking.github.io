@@ -92,7 +92,7 @@
   <div class="container container-fluid nav-search my-4">
     <div class="row align-items-center">
       <div class="col">
-        <select class="search-hotel form-select width-search border border-warning shadow-none">
+        <select id="Location-Search" class="search-hotel form-select width-search border border-warning shadow-none">
           <option selected>Where are you going?</option>
           <option value="Vung Tau">VungTau</option>
           <option value="Hà Nội">HaNoi</option>
@@ -103,33 +103,34 @@
         </select>
       </div>
       <div class="col">
-        <input type="text" class="form-control width-search border border-warning shadow-none" name="daterange" id="abc"
-          value="" />
+        <input type="text" class="form-control width-search border border-warning shadow-none" name="daterange"
+          id="date-time" onchange="handleFormatDate()" value="" />
       </div>
       <div class="dropdown col">
-        <button class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning"
-          type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button id="Adults_children_room"
+          class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning" type="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
           <i class="bi bi-person"></i>
-          2 Adults 1 Children 2 Room
+          2 Adults 0 Children 0 Room
         </button>
         <div class="dropdown-menu">
           <div class="mx-3">
             <div class="row my-3">
               <div class="col">Adults</div>
               <div class="col">
-                <input type="number" name="" id="" />
+                <input type="number" name="" id="" value="2" min="0" class="non-negative-input" />
               </div>
             </div>
             <div class="row my-3">
               <div class="col">Children</div>
               <div class="col">
-                <input type="number" name="" id="" />
+                <input type="number" name="" id="" value="0" min="0" class="non-negative-input" />
               </div>
             </div>
             <div class="row my-3">
               <div class="col">Room</div>
               <div class="col">
-                <input type="number" name="" id="" />
+                <input type="number" name="" id="" value="0" min="0" class="non-negative-input" />
               </div>
             </div>
           </div>
@@ -151,42 +152,50 @@
       <div class="col-3 hide bg-white border rounded">
         <h3 class="py-2" style="border-bottom: 1px solid #e7e7e7">
           Filter by:
+          <a class="fs-4 text-black" id="filter-rating">All</a>
         </h3>
         <h6 class="py-2" style="border-bottom: 1px solid #e7e7e7">
           Properties rating
         </h6>
         <div class="">
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="star-hotel" id="defaultCheck1" value="5" />
-            <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
+            <input class="form-check-input" type="radio" name="star-hotel" id="check-all" value="all" checked />
+            <label class="form-check-label d-flex d-flex justify-content-between" for="check-all">
+              All
+              <span>23</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="star-hotel" id="5-Star" value="5" />
+            <label class="form-check-label d-flex d-flex justify-content-between" for="5-Star">
               5 Stars
               <span>23</span>
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="star-hotel" id="defaultCheck1" value="4" />
-            <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
+            <input class="form-check-input" type="radio" name="star-hotel" id="4-Star" value="4" />
+            <label class="form-check-label d-flex d-flex justify-content-between" for="4-Star">
               4 Stars
               <span>23</span>
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="star-hotel" id="defaultCheck1" value="3" />
-            <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
+            <input class="form-check-input" type="radio" name="star-hotel" id="3-Star" value="3" />
+            <label class="form-check-label d-flex d-flex justify-content-between" for="3-Star">
               3 Stars
               <span>23</span>
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="star-hotel" id="defaultCheck1" value="2" />
-            <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
+            <input class="form-check-input" type="radio" name="star-hotel" id="2-Star" value="2" />
+            <label class="form-check-label d-flex d-flex justify-content-between" for="2-Star">
               2 Stars
               <span>23</span>
             </label>
           </div>
           <div class="form-check" style="border-bottom: 1px solid #e7e7e7">
-            <input class="form-check-input" type="radio" name="star-hotel" id="defaultCheck1" value="1" />
-            <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
+            <input class="form-check-input" type="radio" name="star-hotel" id="1-Star" value="1" />
+            <label class="form-check-label d-flex d-flex justify-content-between" for="1-Star">
               1 Stars
               <span>23</span>
             </label>
@@ -194,313 +203,49 @@
         </div>
 
         <h6 class="py-2">Properties</h6>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Free Wifi" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Free Wifi
-            <span>23</span>
-          </label>
+        <div id="amenities-hotel">
+
         </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Restaurant" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Restaurant
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Spa" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Spa
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Mini bar" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Mini bar
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="TV" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            TV
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Phòng tắm riêng" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Phòng tắm riêng
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Ban công" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Ban công
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Fit Center" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Fit Center
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Swimming pool" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Swimming pool
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="See view" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            See view
-            <span>23</span>
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input amenities-hotel" type="checkbox" value="Pet friendly" id="defaultCheck1" />
-          <label class="form-check-label d-flex d-flex justify-content-between" for="defaultCheck1">
-            Pet friendly
-            <span>23</span>
-          </label>
-        </div>
+
       </div>
       <div class="col-9 bg-white">
         <div class="ms-1 px-2">
           <h3 id="quantity-hotel"></h3>
-          <div class="dropdown">
-            <button class="btn sort-border dropdown-toggle" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <i class="bi bi-funnel"></i> Sort by
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <a id="sort-star-hotel" class="dropdown-item" href="#">Stars</a>
-              </li>
-              <li>
-                <a class="dropdown-item" id="price-ascending" href="#">Price Per Night <i
-                    class="bi bi-sort-down"></i></a>
-              </li>
-              <li>
-                <a class="dropdown-item" id="price-decrease" href="#">Price Per Night <i class="bi bi-sort-up"></i></a>
-              </li>
-            </ul>
+          <div class="d-flex">
+            <div class="dropdown">
+              <button class="btn sort-border dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-funnel"></i> Sort by
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a id="sort-star-hotel" class="dropdown-item" href="#">Stars</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" id="price-ascending" href="#">Price Per Night <i
+                      class="bi bi-sort-down"></i></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" id="price-decrease" href="#">Price Per Night <i
+                      class="bi bi-sort-up"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="popup-sort" id="remove-sort"></div>
           </div>
           <div id="list-hotel"></div>
-          <!-- <div class="card mb-3 ms-0">
-                <div class="row p-3">
-                    <div class="col-md-4">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/242666738.webp?k=b5ba391f4d4bad2a507d57074a011c0457b46d29023413b76f46022f63da4fc3&o=" class="img-fluid rounded" alt="..." />
-                    </div>
-                    <div class="col-md-8 d-flex flex-column">
-                        <div class="card-body">
-                            <h5 class="card-title d-flex align-items-center text-blue">
-                                Cen Hotel
-                                <div class="rating ps-2" data-rating="3"></div>
-                            </h5>
-                            <p class="card-text">
-                                Set in Vung Tau and with Back Beach reachable within less than 1 km, Cen Hotel offers express check-in and check-out, allergy-free rooms, a terrace, free WiFithroughout the property and a bar.
-                            </p>
-                        </div>
-                        <div class="p-3 d-flex justify-content-between align-items-center">
-                            <div class="">
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Free Wifi
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Restaurant
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Swimming pool
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    More +1
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item card-price fw-bold rounded" style="width: auto">
-                                    8.7
-                                </li>
-                                <li class="list-group-item">2,801 reviews</li>
-                                <li class="list-group-item">
-                                    <button type="button" class="btn btn-primary">
-                          View more
-                        </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mb-3 ms-0">
-                <div class="row p-3">
-                    <div class="col-md-4">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/537154750.webp?k=1a0e6a15993becff63336fc590bed51e0717191e8a42e3297a383fa9f6135b6b&o=" class="img-fluid rounded" alt="..." />
-                    </div>
-                    <div class="col-md-8 d-flex flex-column">
-                        <div class="card-body">
-                            <h5 class="card-title d-flex align-items-center text-blue">
-                                Condotel The Song Vũng TàuOpens in new window
-                                <div class="rating ps-2" data-rating="3"></div>
-                            </h5>
-                            <p class="card-text">
-                                Facing the seafront in Vung Tau, Condotel The Song Vũng Tàu is an apartment, featuring a year-round outdoor pool and private parking. The accommodation is air conditioned and is fitted with a sauna.
-                            </p>
-                        </div>
-                        <div class="p-3 d-flex justify-content-between align-items-center">
-                            <div class="">
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Free Wifi
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Restaurant
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Swimming pool
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    More +1
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item card-price fw-bold rounded" style="width: auto">
-                                    8.7
-                                </li>
-                                <li class="list-group-item">2,801 reviews</li>
-                                <li class="list-group-item">
-                                    <button type="button" class="btn btn-primary">
-                          View more
-                        </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 ms-0">
-                <div class="row p-3">
-                    <div class="col-md-4">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/452645427.webp?k=9979f8bb79dc40f011a64b3a7961e20394fcac45ff4d1c848501f9ec9b98231a&o=" class="img-fluid rounded" alt="..." />
-                    </div>
-                    <div class="col-md-8 d-flex flex-column">
-                        <div class="card-body">
-                            <h5 class="card-title d-flex align-items-center text-blue">
-                                BOBO Boutique Hotel
-                                <div class="rating ps-2" data-rating="3"></div>
-                            </h5>
-                            <p class="card-text">
-                                Set in Vung Tau, 1.9 km from Front Beach, BOBO Boutique Hotel offers accommodation with free bikes, free private parking, a shared lounge and a casino.
-                            </p>
-                        </div>
-                        <div class="p-3 d-flex justify-content-between align-items-center">
-                            <div class="">
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Free Wifi
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Restaurant
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Swimming pool
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    More +1
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item card-price fw-bold rounded" style="width: auto">
-                                    8.7
-                                </li>
-                                <li class="list-group-item">2,801 reviews</li>
-                                <li class="list-group-item">
-                                    <button type="button" class="btn btn-primary">
-                          View more
-                        </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 ms-0">
-                <div class="row p-3">
-                    <div class="col-md-4">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/439144899.webp?k=1ec14654c441dbb37c0f546cfd7598b8b5e8c5cc5f9cb86bb1f86ee6c395daaa&o=" class="img-fluid rounded" alt="..." />
-                    </div>
-                    <div class="col-md-8 d-flex flex-column">
-                        <div class="card-body">
-                            <h5 class="card-title d-flex align-items-center text-blue">
-                                The Song Premium ApartmentOpens in new window
-                                <div class="rating ps-2" data-rating="3"></div>
-                            </h5>
-                            <p class="card-text">
-                                Located 800 metres from Back Beach, The Song Premium Apartment offers a private beach area, a rooftop pool and air-conditioned accommodation with a balcony and free WiFi.
-                            </p>
-                        </div>
-                        <div class="p-3 d-flex justify-content-between align-items-center">
-                            <div class="">
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Free Wifi
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Restaurant
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    Swimming pool
-                                </p>
-                                <p class="mx-1 btn btn-secondary" style="font-size: 14px">
-                                    More +1
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item card-price fw-bold rounded" style="width: auto">
-                                    8.7
-                                </li>
-                                <li class="list-group-item">2,801 reviews</li>
-                                <li class="list-group-item">
-                                    <button type="button" class="btn btn-primary">
-                          View more
-                        </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
           <div class="pagination p1 justify-content-center">
-            <ul>
-              <a href="#">
-                <li></li>
-              </a>
-              <a class="is-active" href="#">
-                <li>1</li>
-              </a>
-              <a href="#">
-                <li>2</li>
-              </a>
-              <a href="#">
-                <li>3</li>
-              </a>
-              <a href="#">
-                <li>4</li>
-              </a>
-              <a href="#">
-                <li>5</li>
-              </a>
-              <a href="#">
-                <li>6</li>
-              </a>
-              <a href="#">
-                <li>></li>
-              </a>
+            <ul id="pagination-page">
+              <!-- <ul>
+                <a href="#"><li> < </li></a>
+                <a class="is-active" href="#"><li>1</li></a>
+                <a href="#"><li>2</li></a>
+                <a href="#"><li>3</li></a>
+                <a href="#"><li>4</li></a>
+                <a href="#"><li>5</li></a>
+                <a href="#"><li>6</li></a>
+                <a href="#"><li>></li></a>
+              </ul> -->
             </ul>
           </div>
         </div>
@@ -520,26 +265,29 @@
           opens: "left",
         },
         function (start, end, label) {
-          let date_s = parseInt(start.format("DD"));
+          let day_s = parseInt(start.format("DD"));
           let month_s = parseInt(start.format("MM"));
           let year_s = parseInt(start.format("YY"));
 
-          let date_e = parseInt(end.format("DD"));
+          let day_e = parseInt(end.format("DD"));
           let month_e = parseInt(end.format("MM"));
           let year_e = parseInt(end.format("YY"));;
           let date = {
-            date_start: date_s,
+            day_start: day_s,
             month_start: month_s,
             year_start: year_s,
-            date_end: date_e,
+            day_end: day_e,
             month_end: month_e,
             year_end: year_e
           }
-          localStorage.setItem("date_time", JSON.stringify(date));
+          console.log(date);
+          localStorage.setItem("date_time", JSON.stringify(date))
         }
       );
     });
   </script>
+  <script src="../formatDate.js"></script>
+
 </body>
 
 </html>

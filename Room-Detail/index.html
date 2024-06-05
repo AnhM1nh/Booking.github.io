@@ -1,801 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Room Details</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
-    />
-  </head>
-  <body>
-    <!-- Header homepage -->
-    <header class="bg-cl-blue">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container container-fluid">
-          <a class="navbar-brand text-white fs-3 me-auto hover" href="#"
-            >Booking.com</a
-          >
-          <div
-            class="offcanvas offcanvas-end bg-cl-blue"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
-                <a class="navbar-brand text-white fs-3 me-auto hover" href="#"
-                  >Booking.com</a
-                >
-              </h5>
-              <button
-                type="button"
-                class="btn-close bg-white"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul
-                class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center"
-              >
-                <li class="nav-item">
-                  <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#"
-                    >VND</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#"
-                    ><img
-                      src="https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/Us@3x.png"
-                      class="rounded-circle"
-                      alt="ENG"
-                      width="24"
-                  /></a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link mx-lg-2 py-2 text-white hover-box"
-                    href="#"
-                  >
-                    <i
-                      class="bi bi-question-circle"
-                      style="font-size: 24px"
-                    ></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#"
-                    >List your property</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="btn btn-primary mx-lg-2 my-2 register"
-                    href="#"
-                    type="button"
-                    >Register</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <a
-            class="btn btn-primary mx-lg-2 mx-3 my-2 register"
-            href="#"
-            type="button"
-            >Login</a
-          >
-          <button
-            class="navbar-toggler border border-0 bg-light"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
 
-      <nav class="navbar navbar-expand-lg bg-cl-blue">
-        <div class="container container-fluid">
-          <div class="navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Room Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+</head>
+
+<body>
+  <!-- Header homepage -->
+  <header class="bg-cl-blue">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container-fluid">
+        <a class="navbar-brand text-white fs-3 me-auto hover" href="http://127.0.0.1:5500/homepage/">Booking.com</a>
+        <div class="offcanvas offcanvas-end bg-cl-blue" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
+              <a class="navbar-brand text-white fs-3 me-auto hover" href="#">Booking.com</a>
+            </h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
               <li class="nav-item">
-                <a class="nav-link text-white mx-3 hover-box py-2" href="#"
-                  ><i class="bi bi-house"></i> Stays</a
-                >
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#">VND</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mx-3 hover-box py-2" href="#"
-                  ><i class="bi bi-airplane"></i> Flights</a
-                >
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#"><img
+                    src="https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/Us@3x.png"
+                    class="rounded-circle" alt="ENG" width="24" /></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mx-3 hover-box py-2" href="#"
-                  ><i class="bi bi-globe-americas"></i> Flight+hotel</a
-                >
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#">
+                  <i class="bi bi-question-circle" style="font-size: 24px"></i>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mx-3 hover-box py-2" href="#"
-                  ><i class="bi bi-car-front-fill"></i> Card rentals</a
-                >
+                <a class="nav-link mx-lg-2 py-2 text-white hover-box" href="#">List your property</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary mx-lg-2 my-2 register" href="http://127.0.0.1:5500/Login-out/"
+                  type="button">Register</a>
               </li>
             </ul>
           </div>
-          <div></div>
-          <button
-            class="navbar-toggler border border-0 bg-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="bi-arrow-right"></span>
-          </button>
         </div>
-      </nav>
-    </header>
-    <!-- End header homepage -->
-    <!-- Search booking  -->
-    <div class="container container-fluid nav-search my-4">
-      <div class="row align-items-center">
-        <div class="col">
-          <select
-            class="form-select width-search border border-warning shadow-none"
-          >
-            <option selected>Where are you going?</option>
-            <option value="VungTau">VungTau</option>
-            <option value="HaNoi">HaNoi</option>
-            <option value="HCM">HCM</option>
-            <option value="VinhLong">VinhLong</option>
-            <option value="DaNang">DaNang</option>
-            <option value="CanTho">CanTho</option>
-          </select>
+        <a class="btn btn-primary mx-lg-2 mx-3 my-2 register" href="http://127.0.0.1:5500/Login-out/"
+          type="button">Login</a>
+        <button class="navbar-toggler border border-0 bg-light" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-cl-blue">
+      <div class="container container-fluid">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-house"></i> Stays</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-airplane"></i> Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-globe-americas"></i>
+                Flight+hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 hover-box py-2" href="#"><i class="bi bi-car-front-fill"></i> Card
+                rentals</a>
+            </li>
+          </ul>
         </div>
-        <div class="col">
-          <input
-            type="text"
-            class="form-control width-search border border-warning shadow-none"
-            name="daterange"
-            value="01/01/2024 - 01/15/2024"
-          />
-        </div>
-        <div class="dropdown col">
-          <button
-            class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <i class="bi bi-person"></i>
-            2 Adults 1 Children 2 Room
-          </button>
-          <div class="dropdown-menu">
-            <div class="mx-3">
-              <div class="row my-3">
-                <div class="col">Adults</div>
-                <div class="col">
-                  <input type="number" name="" id="" />
-                </div>
+        <div></div>
+        <button class="navbar-toggler border border-0 bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="bi-arrow-right"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- End header homepage -->
+  <!-- Search booking  -->
+  <div class="container container-fluid nav-search my-4">
+    <div class="row align-items-center">
+      <div class="col">
+        <select class="search-hotel form-select width-search border border-warning shadow-none">
+          <option selected>Where are you going?</option>
+          <option value="Vung Tau">VungTau</option>
+          <option value="Hà Nội">HaNoi</option>
+          <option value="Hồ Chí Minh">HCM</option>
+          <option value="Vĩnh Long">VinhLong</option>
+          <option value="Đà Nẵng">DaNang</option>
+          <option value="Cần Thơ">CanTho</option>
+        </select>
+      </div>
+      <div class="col">
+        <input type="text" class="form-control width-search border border-warning shadow-none" name="daterange"
+          id="date-time" onchange="handleFormatDate()" value="" />
+      </div>
+      <div class="dropdown col">
+        <button id="Adults_children_room"
+          class="btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning" type="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-person"></i>
+          2 Adults 0 Children 0 Room
+        </button>
+        <div class="dropdown-menu">
+          <div class="mx-3">
+            <div class="row my-3">
+              <div class="col">Adults</div>
+              <div class="col">
+                <input type="number" name="" id="" value="2" min="0" class="non-negative-input" />
               </div>
-              <div class="row my-3">
-                <div class="col">Children</div>
-                <div class="col">
-                  <input type="number" name="" id="" />
-                </div>
+            </div>
+            <div class="row my-3">
+              <div class="col">Children</div>
+              <div class="col">
+                <input type="number" name="" id="" value="0" min="0" class="non-negative-input" />
               </div>
-              <div class="row my-3">
-                <div class="col">Room</div>
-                <div class="col">
-                  <input type="number" name="" id="" />
-                </div>
+            </div>
+            <div class="row my-3">
+              <div class="col">Room</div>
+              <div class="col">
+                <input type="number" name="" id="" value="0" min="0" class="non-negative-input" />
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <button
-            type="submit"
-            class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary"
-            style="width: 300px"
-          >
-            <i class="bi bi-search" style="float: left"></i>
-            Search
-          </button>
-        </div>
+      </div>
+      <div class="col">
+        <button type="submit"
+          class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary"
+          style="width: 300px">
+          <i class="bi bi-search" style="float: left"></i>
+          Search
+        </button>
       </div>
     </div>
-    <!-- End Search booking  -->
-
-    <!-- Des Images -->
-    <div class="container container-fluid">
-      <div class="card-body">
-        <h5 class="card-title d-flex align-items-center text-blue">
-          Cen Hotel
-          <div class="rating ps-2" data-rating="3"></div>
-        </h5>
-        <p class="card-text">
-          <i class="bi bi-geo-alt"></i> 74A Vo Thi Sau, Vung Tau, Vietnam
+  </div>
+  <!-- End Search booking  -->
+  <!-- Des Images -->
+  <div class="container container-fluid">
+    <div class="card-body">
+      <h5 class="card-title d-flex align-items-center text-blue">
+        <span id="name">Cen Hotel</span>
+        <div class="rating ps-2" data-rating="0"></div>
+      </h5>
+      <p class="card-text">
+        <i class="bi bi-geo-alt" id="address"></i>
+      </p>
+    </div>
+    <div id="carouselExample-browse" class="carousel carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper" id="image">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXS-HtUBxK_XIjpFBiX-dqUu84CC1HHyUKcdMJYuYZUw&s"
+                  alt="..." />
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFF7V6eG6MWYUK5W1aRWxAhwEKhoRfUwX81cJgrLHQA&s"
+                  alt="..." />
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://www.travelandleisure.com/thmb/QdpF15-fuk2jTY0JAzJLsCIcTrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sun-rv-resorts-el-capitan-FWRVGLAMP1021-4b704f037276415d9ea28a590a77bec1.jpg"
+                  alt="..." />
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jh67EqmsKNB_pKludHD2uXD0RTnRhqKvIgMWX02dDg&s"
+                  alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev translate" type="button" data-bs-target="#carouselExample-browse"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next translate" type="button" data-bs-target="#carouselExample-browse"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- End Des Images -->
+  <div class="container container-fluid">
+    <div class="row" id="amenities">
+      <!-- <div id="amenities"></div> -->
+    </div>
+  </div>
+  <div class="container container-fluid mt-4">
+    <div class="row">
+      <div class="col-8 none">
+        <p id="title_hotel">
         </p>
       </div>
-      <div id="carouselExample-browse" class="carousel carousel-dark">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://static.leonardo-hotels.com/image/leonardohotelbucharestcitycenter_room_comfortdouble2_2022_4000x2600_7e18f254bc75491965d36cc312e8111f_1200x780_mobile_3.jpeg"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/d/df/Town_and_Country_fh000023.jpg"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://l.icdbcdn.com/oh/e1224176-909c-487a-9ae0-7d8460446be9.jpg?w=2080"
-                    alt="..."
-                  />
-                </div>
-              </div>
-            </div>
+      <div class="col-4">
+        <div class="">
+          <div class="col mb-2">
+            <select id="price" class="form-select width-search border border-warning shadow-none">
+            </select>
           </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXS-HtUBxK_XIjpFBiX-dqUu84CC1HHyUKcdMJYuYZUw&s"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFF7V6eG6MWYUK5W1aRWxAhwEKhoRfUwX81cJgrLHQA&s"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://www.travelandleisure.com/thmb/QdpF15-fuk2jTY0JAzJLsCIcTrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sun-rv-resorts-el-capitan-FWRVGLAMP1021-4b704f037276415d9ea28a590a77bec1.jpg"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jh67EqmsKNB_pKludHD2uXD0RTnRhqKvIgMWX02dDg&s"
-                    alt="..."
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev translate"
-          type="button"
-          data-bs-target="#carouselExample-browse"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next translate"
-          type="button"
-          data-bs-target="#carouselExample-browse"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <!-- End Des Images -->
-
-    <div class="container container-fluid">
-      <div class="row">
-        <div class="col border rounded m-2">
-          <p class="p-3 m-0">Free Wifi</p>
-        </div>
-        <div class="col border rounded m-2">
-          <p class="p-3 m-0">Restaurant</p>
-        </div>
-        <div class="col border rounded m-2">
-          <p class="p-3 m-0">Family Room</p>
-        </div>
-        <div class="col border rounded m-2">
-          <p class="p-3 m-0">Non-Smoking</p>
-        </div>
-        <div class="col border rounded m-2">
-          <p class="p-3 m-0">Spa</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container container-fluid mt-4">
-      <div class="row">
-        <div class="col-8 none">
-          <p>
-            Set in Vung Tau and with Back Beach reachable within less than 1 km,
-            Cen Hotel offers express check-in and check-out, allergy-free rooms,
-            a terrace, free WiFithroughout the property and a bar. This 2-star
-            hotel offers a 24-hour front desk and room service. There is free
-            private parking and the property features paid airport shuttle
-            service. At the hotel every room includes air conditioning, a
-            seating area, a flat-screen TV with satellite channels, a safety
-            deposit box and a private bathroom with a bidet, slippers and a
-            hairdryer. Cen Hotel provides certain units with sea views, and
-            every room has a balcony. At the accommodation rooms include bed
-            linen and towels. The area is popular for hiking and cycling, in
-            addition, bike hire and car hire are available at this hotel. Front
-            Beach is 1.8 km from Cen Hotel, while Pineapple Beach is 2.7 km
-            away.
-          </p>
-        </div>
-        <div class="col-4">
-          <div class="">
-            <div class="col mb-2">
-              <select
-                class="form-select width-search border border-warning shadow-none"
-              >
-                <option selected>Room</option>
-                <option value="">
-                  <span> 1 </span>
-                  <span>( USD 100$) </span>
-                </option>
-                <option value="">
-                  <span> 2 </span>
-                  <span>(USD 200$) </span>
-                </option>
-                <option value="">
-                  <span> 3 </span>
-                  <span>(USD 300$) </span>
-                </option>
-              </select>
-            </div>
-            <div class="col my-2">
-              <input
-                type="text"
-                class="form-control width-search border border-warning shadow-none"
-                name="daterange"
-                value="01/01/2024 - 01/15/2024"
-              />
-            </div>
-            <div class="dropdown col my-2">
-              <button
-                class="form-select btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                style="overflow: hidden"
-              >
-                <i class="bi bi-person"></i>
-                2 Adults 1 Children 2 Room
-              </button>
-              <div class="dropdown-menu">
-                <div class="mx-3">
-                  <div class="row my-3">
-                    <div class="col">Adults</div>
-                    <div class="col">
-                      <input type="number" name="" id="" />
-                    </div>
+          <!-- <div class="col my-2">
+            <input type="text" class="form-control width-search border border-warning shadow-none" name="daterange"
+              id="date-time" onchange="handleFormatDate()" value="01/01/2024 - 01/15/2024" />
+          </div> -->
+          <!-- <div class="dropdown col my-2">
+            <button id="test"
+              class="form-select btn btn-secondary dropdown-toggle width-search bg-white text-black border border-warning"
+              type="button" data-bs-toggle="dropdown" aria-expanded="false" style="overflow: hidden">
+              <i class="bi bi-person"></i>
+              2 Adults 0 Children 0 Room
+            </button>
+            <div class="dropdown-menu">
+              <div class="mx-3">
+                <div class="row my-3">
+                  <div class="col">Adults</div>
+                  <div class="col">
+                    <input type="number" name="" id="" class="non-negative-input" min="0" value="0" />
                   </div>
-                  <div class="row my-3">
-                    <div class="col">Children</div>
-                    <div class="col">
-                      <input type="number" name="" id="" />
-                    </div>
+                </div>
+                <div class="row my-3">
+                  <div class="col">Children</div>
+                  <div class="col">
+                    <input type="number" name="" id="" min="0" class="non-negative-input" value="0" />
                   </div>
-                  <div class="row my-3">
-                    <div class="col">Room</div>
-                    <div class="col">
-                      <input type="number" name="" id="" />
-                    </div>
+                </div>
+                <div class="row my-3">
+                  <div class="col">Room</div>
+                  <div class="col">
+                    <input type="number" name="" id="" min="0" class="non-negative-input" value="0" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col my-2">
-              <button
-                type="submit"
-                class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary"
-              >
-                <i class="bi bi-house-add" style="float: left"></i>
-                Booking
-              </button>
-            </div>
+          </div> -->
+          <div class="col my-2">
+            <button type="submit" onclick="Booking()"
+              class="main-btn rounded-2 px-lg-3 form-control border border-warning shadow-none btn btn-primary">
+              <i class="bi bi-house-add" style="float: left"></i>
+              Booking
+            </button>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container container-fluid mt-4">
-      <!-- Reviews -->
-      <div class="mb-3">
-        <h3 class="mb-4">How students rated this courses</h3>
-        <div class="row align-items-center">
-          <div class="col-auto text-center">
-            <h3 class="display-2 fw-bold">4.5</h3>
-            <i class="mdi mdi-star me-n1 text-warning"></i>
-            <i class="mdi mdi-star me-n1 text-warning"></i>
-            <i class="mdi mdi-star me-n1 text-warning"></i>
-            <i class="mdi mdi-star me-n1 text-warning"></i>
-            <i class="mdi mdi-star me-n1-half text-warning"></i>
-            <p class="mb-0 fs-6">(Based on 27 reviews)</p>
+  </div>
+  <div class="container container-fluid mt-4">
+    <!-- Reviews -->
+    <div class="mb-3">
+      <h3 class="mb-4">How students rated this courses</h3>
+      <div class="row align-items-center">
+        <div class="col-auto text-center">
+          <h3 class="display-2 fw-bold">4.5</h3>
+          <i class="mdi mdi-star me-n1 text-warning"></i>
+          <i class="mdi mdi-star me-n1 text-warning"></i>
+          <i class="mdi mdi-star me-n1 text-warning"></i>
+          <i class="mdi mdi-star me-n1 text-warning"></i>
+          <i class="mdi mdi-star me-n1-half text-warning"></i>
+          <p class="mb-0 fs-6">(Based on 27 reviews)</p>
+        </div>
+        <!-- Progress Bar -->
+        <div class="col pt-3 order-3 order-md-2">
+          <div class="progress mb-3" style="height: 6px">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <!-- Progress Bar -->
-          <div class="col pt-3 order-3 order-md-2">
-            <div class="progress mb-3" style="height: 6px">
-              <div
-                class="progress-bar bg-warning"
-                role="progressbar"
-                style="width: 90%"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <div class="progress mb-3" style="height: 6px">
-              <div
-                class="progress-bar bg-warning"
-                role="progressbar"
-                style="width: 80%"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <div class="progress mb-3" style="height: 6px">
-              <div
-                class="progress-bar bg-warning"
-                role="progressbar"
-                style="width: 70%"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <div class="progress mb-3" style="height: 6px">
-              <div
-                class="progress-bar bg-warning"
-                role="progressbar"
-                style="width: 60%"
-                aria-valuenow="60"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <div class="progress mb-0" style="height: 6px">
-              <div
-                class="progress-bar bg-warning"
-                role="progressbar"
-                style="width: 50%"
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
+          <div class="progress mb-3" style="height: 6px">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <div class="col-md-auto col-6 order-2 order-md-3">
-            <!-- Rating -->
-            <div>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <span class="ms-1">53%</span>
-            </div>
-            <div>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <span class="ms-1">36%</span>
-            </div>
-            <div>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <span class="ms-1">9%</span>
-            </div>
-            <div>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <span class="ms-1">3%</span>
-            </div>
-            <div>
-              <i class="mdi mdi-star me-n1 text-warning"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <i class="mdi mdi-star me-n1 text-light"></i>
-              <span class="ms-1">2%</span>
-            </div>
+          <div class="progress mb-3" style="height: 6px">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress mb-3" style="height: 6px">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress mb-0" style="height: 6px">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-      </div>
-      <hr class="my-5" />
-      <div class="mb-3">
-        <div class="d-lg-flex align-items-center justify-content-between mb-5">
-          <!-- Reviews -->
-          <div class="mb-3 mb-lg-0">
-            <h3 class="mb-0">Reviews</h3>
+        <div class="col-md-auto col-6 order-2 order-md-3">
+          <!-- Rating -->
+          <div>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <span class="ms-1">53%</span>
           </div>
           <div>
-            <form class="form-inline">
-              <div class="d-flex align-items-center me-2">
-                <span class="position-absolute ps-3">
-                  <i class="fe fe-search"></i>
-                </span>
-                <input
-                  type="search"
-                  class="form-control ps-6"
-                  placeholder="Search Review"
-                />
-              </div>
-            </form>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <span class="ms-1">36%</span>
+          </div>
+          <div>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <span class="ms-1">9%</span>
+          </div>
+          <div>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <span class="ms-1">3%</span>
+          </div>
+          <div>
+            <i class="mdi mdi-star me-n1 text-warning"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <i class="mdi mdi-star me-n1 text-light"></i>
+            <span class="ms-1">2%</span>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container container-fluid mt-4 mb-4">
-      <div id="carouselExample-reviews" class="carousel carousel-dark">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <div class="row p-2">
-                    <div class="col">
-                      <img
-                        src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg"
-                        alt=""
-                        class="rounded avatar-lg" style="width: 120px; height: 120px;"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6>Max Hawkins</h6>
-                    </div>
-                    <div class="pt-2">
-                      <p>
-                        Lectures were at a really good pace and I never felt lost. The
-                        instructor was well informed and allowed me to learn and navigate
-                        Figma easily.
-                      </p>
-                    </div>
+    <hr class="my-5" />
+    <div class="mb-3">
+      <div class="d-lg-flex align-items-center justify-content-between mb-5">
+        <!-- Reviews -->
+        <div class="mb-3 mb-lg-0">
+          <h3 class="mb-0">Reviews</h3>
+        </div>
+        <div>
+          <form class="form-inline">
+            <div class="d-flex align-items-center me-2">
+              <span class="position-absolute ps-3">
+                <i class="fe fe-search"></i>
+              </span>
+              <input type="search" class="form-control ps-6" placeholder="Search Review" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container container-fluid mt-4 mb-4">
+    <div id="carouselExample-reviews" class="carousel carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <div class="row p-2">
+                  <div class="col">
+                    <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg" alt=""
+                      class="rounded avatar-lg" style="width: 120px; height: 120px;" />
                   </div>
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <div class="row p-2">
-                    <div class="col">
-                      <img
-                        src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg"
-                        alt=""
-                        class="rounded avatar-lg" style="width: 120px; height: 120px;"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6>Max Hawkins</h6>
-                    </div>
-                    <div class="pt-2">
-                      <p>
-                        Lectures were at a really good pace and I never felt lost. The
-                        instructor was well informed and allowed me to learn and navigate
-                        Figma easily.
-                      </p>
-                    </div>
+                  <div class="col">
+                    <h6>Max Hawkins</h6>
                   </div>
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <div class="row p-2">
-                    <div class="col">
-                      <img
-                        src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg"
-                        alt=""
-                        class="rounded avatar-lg" style="width: 120px; height: 120px;"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6>Max Hawkins</h6>
-                    </div>
-                    <div class="pt-2">
-                      <p>
-                        Lectures were at a really good pace and I never felt lost. The
-                        instructor was well informed and allowed me to learn and navigate
-                        Figma easily.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <div class="row p-2">
-                    <div class="col">
-                      <img
-                        src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg"
-                        alt=""
-                        class="rounded avatar-lg" style="width: 120px; height: 120px;"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6>Max Hawkins</h6>
-                    </div>
-                    <div class="pt-2">
-                      <p>
-                        Lectures were at a really good pace and I never felt lost. The
-                        instructor was well informed and allowed me to learn and navigate
-                        Figma easily.
-                      </p>
-                    </div>
+                  <div class="pt-2">
+                    <p>
+                      Lectures were at a really good pace and I never felt lost. The
+                      instructor was well informed and allowed me to learn and navigate
+                      Figma easily.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <div class="row p-2">
-                    <div class="col">
-                      <img
-                        src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg"
-                        alt=""
-                        class="rounded avatar-lg" style="width: 120px; height: 120px;"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6>Max Hawkins</h6>
-                    </div>
-                    <div class="pt-2">
-                      <p>
-                        Lectures were at a really good pace and I never felt lost. The
-                        instructor was well informed and allowed me to learn and navigate
-                        Figma easily.
-                      </p>
-                    </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <div class="row p-2">
+                  <div class="col">
+                    <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg" alt=""
+                      class="rounded avatar-lg" style="width: 120px; height: 120px;" />
+                  </div>
+                  <div class="col">
+                    <h6>Max Hawkins</h6>
+                  </div>
+                  <div class="pt-2">
+                    <p>
+                      Lectures were at a really good pace and I never felt lost. The
+                      instructor was well informed and allowed me to learn and navigate
+                      Figma easily.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="card" style="width: 25rem">
-                <div class="image-wrapper-browse">
-                  <div class="row p-2">
-                    <div class="col">
-                      <img
-                        src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg"
-                        alt=""
-                        class="rounded avatar-lg" style="width: 120px; height: 120px;"
-                      />
-                    </div>
-                    <div class="col">
-                      <h6>Max Hawkins</h6>
-                    </div>
-                    <div class="pt-2">
-                      <p>
-                        Lectures were at a really good pace and I never felt lost. The
-                        instructor was well informed and allowed me to learn and navigate
-                        Figma easily.
-                      </p>
-                    </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <div class="row p-2">
+                  <div class="col">
+                    <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg" alt=""
+                      class="rounded avatar-lg" style="width: 120px; height: 120px;" />
+                  </div>
+                  <div class="col">
+                    <h6>Max Hawkins</h6>
+                  </div>
+                  <div class="pt-2">
+                    <p>
+                      Lectures were at a really good pace and I never felt lost. The
+                      instructor was well informed and allowed me to learn and navigate
+                      Figma easily.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <div class="row p-2">
+                  <div class="col">
+                    <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg" alt=""
+                      class="rounded avatar-lg" style="width: 120px; height: 120px;" />
+                  </div>
+                  <div class="col">
+                    <h6>Max Hawkins</h6>
+                  </div>
+                  <div class="pt-2">
+                    <p>
+                      Lectures were at a really good pace and I never felt lost. The
+                      instructor was well informed and allowed me to learn and navigate
+                      Figma easily.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev translate"
-          type="button"
-          data-bs-target="#carouselExample-reviews"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next translate"
-          type="button"
-          data-bs-target="#carouselExample-reviews"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <div class="row p-2">
+                  <div class="col">
+                    <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg" alt=""
+                      class="rounded avatar-lg" style="width: 120px; height: 120px;" />
+                  </div>
+                  <div class="col">
+                    <h6>Max Hawkins</h6>
+                  </div>
+                  <div class="pt-2">
+                    <p>
+                      Lectures were at a really good pace and I never felt lost. The
+                      instructor was well informed and allowed me to learn and navigate
+                      Figma easily.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem">
+              <div class="image-wrapper-browse">
+                <div class="row p-2">
+                  <div class="col">
+                    <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg" alt=""
+                      class="rounded avatar-lg" style="width: 120px; height: 120px;" />
+                  </div>
+                  <div class="col">
+                    <h6>Max Hawkins</h6>
+                  </div>
+                  <div class="pt-2">
+                    <p>
+                      Lectures were at a really good pace and I never felt lost. The
+                      instructor was well informed and allowed me to learn and navigate
+                      Figma easily.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <button class="carousel-control-prev translate" type="button" data-bs-target="#carouselExample-reviews"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next translate" type="button" data-bs-target="#carouselExample-reviews"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <script src="index.js"></script>
 
+  <script>
+    $(function () {
+      $('input[name="daterange"]').daterangepicker({
+          opens: "left",
+        },
+        function (start, end, label) {
+          let day_s = parseInt(start.format("DD"));
+          let month_s = parseInt(start.format("MM"));
+          let year_s = parseInt(start.format("YY"));
 
-
-
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
-    ></script>
-    <script src="index.js"></script>
-    <script>
-      $(function () {
-        $('input[name="daterange"]').daterangepicker(
-          {
-            opens: "left",
-          },
-          function (start, end, label) {
-            console.log(
-              "A new date selection was made: " +
-                start.format("YYYY-MM-DD") +
-                " to " +
-                end.format("YYYY-MM-DD")
-            );
+          let day_e = parseInt(end.format("DD"));
+          let month_e = parseInt(end.format("MM"));
+          let year_e = parseInt(end.format("YY"));;
+          let date = {
+            day_start: day_s,
+            month_start: month_s,
+            year_start: year_s,
+            day_end: day_e,
+            month_end: month_e,
+            year_end: year_e
           }
-        );
-      });
-    </script>
-  </body>
+          console.log(date);
+          localStorage.setItem("date_time", JSON.stringify(date))
+        }
+      );
+    });
+  </script>
+  <script src="../formatDate.js"></script>
+
+</body>
+
 </html>

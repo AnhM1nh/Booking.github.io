@@ -1,0 +1,1854 @@
+{
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Data Swing",
+      "star": 5,
+      "address": "Lô R2 03-04. Golf Valley, Phường 2, Đà Lạt, Việt Nam",
+      "description": "Bạn có thể được hưởng ưu đãi giảm giá Genius tại Khách sạn Dalat Wind! Đăng nhập để lưu. Dalat Wind Hotel nằm ở Đà Lạt, cách Hồ Xuân Hương 500 m. Khách sạn 2 sao này có quầy lễ tân 24 giờ và sảnh khách chung. WiFi miễn phí và bãi đậu xe riêng có sẵn trên trang web. Tất cả các phòng đều có bàn làm việc và TV màn hình phẳng. Một số có ban công. Phòng tắm riêng đi kèm bồn rửa vệ sinh. Bữa sáng à la carte được phục vụ hàng ngày tại chỗ nghỉ. Du khách có thể dùng bữa tại nhà hàng trong khuôn viên chuyên phục vụ các món nướng và BBQ. Có sân hiên phơi nắng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Vườn hoa Đà Lạt, Quảng trường Lâm Viên và Công viên Yersin Đà Lạt. Sân bay gần nhất là Sân bay Liên Khương, cách chỗ nghỉ 23 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Spa",
+        "Mini bar",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/402605588.jpg?k=63e46ae36cfadf4b62415c9214f9619160c09e216b78cbced50f76018259d53c&o=&hp=1%27",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402605354.jpg?k=ae420689441bae26e7875787e2285cffe5246d9cfb6ade1be6c3022d7a9fd17e&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402605567.jpg?k=9706ce76a8054613f6b02568af65fca39a50b86b1e1a8006efa07aab85308f08&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402605656.jpg?k=9068d95def90c83aec4cf8e36843731f96eef09a1a2ccc0971cd73cfd4b0fb21&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "11",
+          "room_name": "Phòng Deluxe",
+          "price": 9000000,
+          "image": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjqbqRFHQ7-WIGRjK7JY1aWr5HYpB_-NhaiFPxqcPl6g&s",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402606316.jpg?k=00bb2836265ada9265b2c731390d0554c0a044162eda9d6c66334a028c606f13&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402607873.jpg?k=57301a40c200dd3de68e271bf9c1f256d19dfc8b9187812ffd31cb673a9aed85&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402605763.jpg?k=a95446536329dc9355f91f12d2ab9d7263219122a621c2b0c5b9bf125041f671&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Mini bar",
+            "Phòng tắm riêng",
+            "Free Wifi",
+            "Restaurant",
+            "Spa"
+          ],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Deluxe",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "12",
+          "room_name": "Phòng Suite",
+          "price": 2420000,
+          "image": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClotRWHePQYiz6VjozMjZn7G5KvDiD4Xu4ZBoF8e0GQ&s",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402609034.jpg?k=8a82bb521be32b75178e255855fc563460ede21d71ba0cf2b8dfdf497afdba27&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/449510419.jpg?k=747be4e331c58967a068bbf4417e022b6963cbea8a5c06c2e74355337efcdc13&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Mini bar",
+            "Phòng tắm riêng",
+            "Ban công",
+            "Free Wifi"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Suite",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id":"2",
+      "name": "SAFFRON Dalat",
+      "star": 4,
+      "address": "122B Vạn Hạnh, Phường 08, Đà Lạt, Đà Lạt, Vietnam",
+      "description": "Bạn có thể hưởng lợi từ ưu đãi giảm giá Genius tại SAFFRON Dalat! Đăng nhập để lưu. cách Câu lạc bộ Golf Dalat Palace 1,9 km và cách Vườn hoa Đà Lạt 2,5 km, SAFFRON Dalat cung cấp các phòng nghỉ tại thành phố Đà Lạt. Nơi đây cung cấp các phòng gia đình và sân hiên. Nơi đây có quầy lễ tân 24 giờ, dịch vụ đưa đón sân bay, dịch vụ phòng và Wi-Fi miễn phí trong toàn bộ khuôn viên. Tất cả các phòng ngủ đều có tủ quần áo. Phòng tắm riêng đi kèm vòi sen và đồ vệ sinh cá nhân miễn phí. Một số căn tại SAFFRON Đà Lạt có tầm nhìn ra thành phố. Khăn trải giường và khăn tắm được cung cấp. Hồ Xuân Hương cách chỗ nghỉ 4,3 km trong khi Công viên Yersin Đà Lạt cách đó 4,3 km. Sân bay gần nhất là Sân bay Liên Khương, cách chỗ nghỉ 34 km.",
+      "amenities": [
+        "Free Wifi",
+        "Swimming pool",
+        "See view",
+        "Fit Center",
+        "TV",
+        "Fit Center",
+        "Phòng tắm riêng",
+        "Mini bar",
+        "Ban công",
+        "Pet friendly"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/431899664.jpg?k=97d3be0e9e2f19082fa40a28905585cb25335422fe29ed580640bbb75f0eea75&o=&hp=1%27",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/527561919.jpg?k=4a6e1fc11b58e32bb0d8e74f8140bfb907e2a996255faf50f40793023ab8c983&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/537152843.jpg?k=71858cc367ea6064938b6c63ad19645c4e5f36decda3e9527c673a3832cbb908&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/527563273.jpg?k=7c412933ca708f4ff6a6b0bb4e5d8b2cda62a27e98aa3b8305308b4f02f94d08&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "21",
+          "room_name": "Phòng Standard ",
+          "price": 323000,
+          "image": [
+            "https://dulichmedia.dalat.vn//Images/LDG/myduyen/DaLat%20Wind/60622550_1264876646995565_8111191509686026240_n_636981337889873675.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/538514629.jpg?k=8c98742121559b6b42342f8109b622cbaa7df3ccaf840866d457c25db4201092&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/527562044.jpg?k=9a5f97015de9ac2c11cfcd25b6230a0938b5f6bdc72c7996a013f7d4792034cf&o=&hp=1"
+          ],
+          "amenities": ["TV", "Fit Center", "Phòng tắm riêng"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "22",
+          "room_name": "Phòng Superior",
+          "price": 3300000,
+          "image": [
+            "https://www.hoteljob.vn/files/VB2-%E1%BA%A3nh%20HTJ/cac-loai-phong-trong-khach-san.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/527786066.jpg?k=cf368158632c7e1ff00a0af88dcacd321b45409a025c47cba8aacd9d173abfbe&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/529828036.jpg?k=bd63229dc5881dd523005f8babedb3f98ec69dac868167cdfe8951d94b7ce3b9&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/533854840.jpg?k=9f3cb75b25beaf1bbf2faf4e644f4b46b0513f019bde7cd5b988fb900a38512b&o=&hp=1"
+          ],
+          "amenities": [
+            "Free Wifi",
+            "TV",
+            "Mini bar",
+            "Phòng tắm riêng",
+            "Ban công",
+            "Pet friendly"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 6,
+          "beds": 3,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id":"3",
+      "name": "Cen Hotel",
+      "star": 4,
+      "address": "74A Vo Thi Sau, Vung Tau, Vietnam ",
+      "description": "Tọa lạc tại thành phố Vũng Tàu, cách Bãi Sau chưa đầy 1 km, Cen Hotel cung cấp chỗ nghỉ với sảnh khách chung, chỗ đỗ xe riêng miễn phí và quán bar. Chỗ nghỉ cách Bãi Trước khoảng 1,8 km, cách Bãi Dứa 2,7 km và cách Mũi Nghinh Phong 2,4 km. Nơi đây có quầy lễ tân 24 giờ, dịch vụ đưa đón sân bay, dịch vụ phòng và Wi-Fi miễn phí trong toàn bộ khuôn viên. Tất cả các phòng đều có máy điều hòa, bàn làm việc, TV màn hình phẳng, phòng tắm riêng, bộ khăn trải giường, khăn tắm và sân hiên nhìn ra thành phố. Một số nhìn ra biển và có tủ lạnh. Khách sạn 2 sao này cung cấp dịch vụ cho thuê xe đạp vì khu vực này nổi tiếng với những người đam mê đi bộ đường dài và đạp xe. Chỗ nghỉ cách Bạch Dinh 3,6 km trong khi Công viên Du lịch Sinh thái và Văn hóa Hồ Mây cách đó 3,7 km.",
+      "amenities": [
+        "Free Wifi",
+        "Swimming pool",
+        "Restaurant",
+        "Parking",
+        "TV",
+        "Mini bar",
+        "Phòng tắm riêng",
+        "Ban công"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402605354.jpg?k=ae420689441bae26e7875787e2285cffe5246d9cfb6ade1be6c3022d7a9fd17e&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/242666738.jpg?k=fb9c48ac61c230ef6d64b431a736c26418e26701b7c04db5dfb191a7fa542118&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/402605354.jpg?k=ae420689441bae26e7875787e2285cffe5246d9cfb6ade1be6c3022d7a9fd17e&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242684038.jpg?k=50870d39129f02e57cb8ca8b8bb8e8bb0800f3667b32b6d37c1918faac29d6a9&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242666720.jpg?k=199c3c106cae2b1763e0eb770a5858fd408255f6990dc46db61f8c1ec92e20ae&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "31",
+          "room_name": "Phòng Suite",
+          "price": 900000,
+          "image": [
+            "https://www.hoteljob.vn/files/VB2-%E1%BA%A3nh%20HTJ/cac-loai-phong-trong-khach-san-4.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242673403.jpg?k=748db66786317518cdd833a4ad0a80619cc8e58b78b86a3aca88bda4eea20029&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242678404.jpg?k=442f001ac94751dbc1041f1a8f5469e3c7a484f7b0908afd8363f70f24437c68&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242679791.jpg?k=8cbe1cd51ed5e9c8d5cbca74638f5ec0f1c00a00803c34b1ed78e1eb9006d6ee&o=&hp=1"
+          ],
+          "amenities": ["TV", "Mini bar", "Phòng tắm riêng"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Suite",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "32",
+          "room_name": "Phòng Superior",
+          "price": 540000,
+          "image": [
+            "https://www.hoteljob.vn/files/VB2-%E1%BA%A3nh%20HTJ/cac-loai-phong-trong-khach-san-5.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242679763.jpg?k=3adaaa684a0398b43f39d00a3ea592c154365b6827542c53581ea0654c1dba6f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242666661.jpg?k=2bee929cb88e9133e55fa34c437a55516b43790fdbaa5b4a34981db0beff892f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242673367.jpg?k=f468274c704738e32ab292aa8997eebbbfcbf9a36b560eef1628844511468c25&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/242673349.jpg?k=9219605f0369044802b0a340dfec0a6dd4d9afac66b74b61d475e9cfe49b3539&o=&hp=1"
+          ],
+          "amenities": ["TV", "Mini bar", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Raymond Holm Apartment in Thao Dien",
+      "star": 5,
+      "address": "Đường Thảo Điền, District 2, Hô-Chi-Minh-Ville, Vietnam",
+      "description": "Bạn có thể hưởng lợi từ chiết khấu Genius tại Căn hộ Raymond Holm ở Thảo Điền! Đăng nhập để lưu. Với tầm nhìn ra quang cảnh thành phố, Raymond Holm Apartment in Thao Điền tọa lạc tại Thành phố Hồ Chí Minh, cách Bảo tàng Lịch sử Việt Nam 6,2 km và cách trung tâm thương mại Vincom Plaza Thủ Đức 7,3 km. Với tầm nhìn ra sông, chỗ ở này có ban công và hồ bơi. Nơi đây có trung tâm thể dục, Wi-Fi miễn phí trong toàn bộ khuôn viên và các phòng gia đình. Chỗ ở trong khu chung cư được trang bị máy lạnh, khu vực tiếp khách và TV màn hình phẳng với các dịch vụ phát trực tuyến. Căn hộ bao gồm nhà bếp, khu vực ăn uống và phòng tắm riêng với dép, góc tắm vòi sen mở và máy sấy tóc. Lò nướng, tủ lạnh, bếp nấu và ấm đun nước cũng được cung cấp. Khăn trải giường và khăn tắm được cung cấp. Có một quán cà phê trên trang web. Trong khuôn viên có khu vui chơi dành cho trẻ em. Diamond Plaza cách chỗ nghỉ 7,3 km trong khi Bưu điện Trung tâm Sài Gòn cách đó 7,4 km. Sân bay gần nhất là Sân bay Quốc tế Tân Sơn Nhất, cách chỗ nghỉ 10 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "TV",
+        "Mini bar",
+        "Phòng tắm riêng",
+        "Spa",
+        "Ban công",
+        "TV",
+        "Mini bar",
+        "Swimming pool"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/519577846.jpg?k=63c30c6b7c99154d3813f65e51adcc6a801d77247f47e49b7423602c05753300&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/535005509.jpg?k=a02b2374640ddbd7da5d47ab7c7b2f8dcc72a00c6c42242fd8380be881c9bac2&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/535895213.jpg?k=735381dd830943c9d1a4b684af6ad340e6cfec3ba04426787fcc3a398ab92ac3&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/535895215.jpg?k=eb3bb67b3c3de5260e7962f5141f6e5bae8e884e11e66f96d648967b7d947d96&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "41",
+          "room_name": "Phòng Suite",
+          "price": 780000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/542977659.jpg?k=ebe62c5f4ddf196d917cec9bc4ff479d22da255c68a92819bd13ec69afef60d4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/535017265.jpg?k=7ee382ba176a4036d38eed2e45e56bf00d5e9492b39ef20fb4b08f110d29f5cc&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/537633301.jpg?k=d69cfabd6ae0e03e457d6003f8c5859a7b61945f02c5021d1432c705c1dcd843&o=&hp=1"
+          ],
+          "amenities": ["TV", "Mini bar", "Phòng tắm riêng", "Spa"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Suite",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "42",
+          "room_name": "Phòng Superior",
+          "price": 9400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/535895250.jpg?k=c085c0f315b26926c05dea2263f61075acca7e9c6277d26fc259ecd5b06aa6f4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/537633288.jpg?k=3b41a322dd02dd22e4149aadcccc60db05d307c836f667adbade1d9753401d18&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/537633293.jpg?k=b57cf1b2fe7c7c289cccfb623293aa2d86e1cb96dc9a0022e676c6380971257e&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/537633296.jpg?k=f169eb35ad938517c4871a922948e9ed76e315c6b40ea3b554318d40b76db8d4&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Mini bar",
+            "Phòng tắm riêng",
+            "Ban công",
+            "Spa",
+            "Swimming pool",
+            "Free Wifi",
+            "Restaurant",
+            "Parking"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sai Gon Hotel Bui Vien Walking Street",
+      "star": 2,
+      "address": " 40/13 Bùi Viện Phạm Ngũ Lão , Quận 1 , Thành phố Hồ Chí Minh",
+      "description": "Bạn có thể được giảm giá Genius tại Phố đi bộ Khách sạn Sài Gòn Bùi Viện! Đăng nhập để lưu. Tọa lạc tại Thành phố Hồ Chí Minh, Khách sạn Sài Gòn Phố Đi Bộ Bùi Viện cung cấp các phòng máy lạnh với Wi-Fi miễn phí, chỗ đỗ xe riêng miễn phí và dịch vụ phòng. Khách sạn 2 sao này có sảnh khách chung và lễ tân 24 giờ. Nơi nghỉ không gây dị ứng và nằm cách Bảo tàng Mỹ thuật 700 m. Các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, bộ khăn trải giường và khăn tắm. Một số phòng có ban công và những phòng khác nhìn ra quang cảnh thành phố. Tất cả đều có khu vực tiếp khách. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Takashimaya Việt Nam, Chợ ẩm thực đường phố Bến Thành và Công viên Tao Đàn. Sân bay gần nhất là Sân bay Quốc tế Tân Sơn Nhất, cách chỗ nghỉ 7 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa",
+        "See view",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Swimming pool"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/385231843.jpg?k=0ce7ffdd43e6545a436bfe97bed081b4a48be395c2bcbddb67a291d76d832346&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/447787550.jpg?k=98d69569f0ac3f846a0ae42f10c0de65dbd8d7b0a9f0b1ef230deb2a55da8ff8&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/447787542.jpg?k=9b0d7c5fef060462f01b4eac8b0112918a859d49f508e13fc89cf9dcc679d962&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "51",
+          "room_name": "Phòng Suite",
+          "price": 280000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/447787494.jpg?k=740275dbee95fe7d79065e6165661b9a018e92adc4b2483d2edc494461ba775a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/447787499.jpg?k=4ff0bb24203d4e99270b24e54b41871830081deff2f371cfa1ba14f083146922&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/447787502.jpg?k=ffc66b7e653fa4eb44bc671033aa09b38ae7b2ba40ac1fc3705d2bd3ec6a38e3&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Suite",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "52",
+          "room_name": "Phòng Superior",
+          "price": 2400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/447787517.jpg?k=524f7fc9563718e542b161c81c26ed0c269e8c3ebea6350612c4c8e658cba0b9&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/447787505.jpg?k=e7b62bce0b30c8aed4a64b7a23aa97b0248f0bffacf63bef799071931b8aa2fc&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/447787454.jpg?k=836c8b2ca3f08e41d1d6f99a9edb8f21e2b3fa0f6103b57b720dd563593ed111&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Swimming pool",
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "See view"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Phước Hưng 1 Hotel",
+      "star": 2,
+      "address": "44/62B Nguyễn Văn háo , Phường 3 , TP Vĩnh Long, Vĩnh Long,",
+      "description": "Bạn có thể được hưởng ưu đãi giảm giá Genius tại Khách sạn Phước Hưng 1! Đăng nhập để lưu.Tọa lạc tại Vĩnh Long, cách trung tâm thương mại Vincom Plaza Xuân Khánh 39 km, Phước Hưng 1 Hotel cung cấp Wi-Fi miễn phí và dịch vụ trợ giúp đặc biệt. Nơi nghỉ cách Bến Ninh Kiều 39 km, cách trung tâm thương mại Vincom Plaza Hùng Vương 41 km và cách Bảo tàng Vĩnh Long 2,5 km. Du khách được hưởng lợi từ bãi đậu xe riêng miễn phí và dịch vụ đưa đón sân bay trả phí. Tất cả các phòng đều được trang bị máy điều hòa, TV màn hình phẳng với các kênh truyền hình cáp, tủ lạnh, ấm đun nước, chậu rửa vệ sinh, đồ vệ sinh cá nhân miễn phí và bàn làm việc. Phòng tắm riêng đi kèm vòi sen, máy sấy tóc và dép. Khăn trải giường và khăn tắm được cung cấp. Nhân viên tại quầy lễ tân 24 giờ nói được tiếng Anh và tiếng Việt. Phước Hưng 1 Hotel cách Bảo tàng Cần Thơ 39 km và cách Sân vận động Cần Thơ 41 km. Sân bay gần nhất là Sân bay Quốc tế Cần Thơ, cách chỗ nghỉ 49 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa",
+        "See view",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Pet friendly",
+        "Phòng tắm riêng"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/191706120.jpg?k=d4bb4f9e35dc97e078f9e483d0045436d4ea0eb29a16f81ca9a9f7012e720a4f&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/505114538.jpg?k=3a2f4741b595359d7b22a164aa998133e82de04892b586faefaa62884db77180&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "61",
+          "room_name": "Phòng Standard ",
+          "price": 1980000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781180.jpg?k=a9cb1a96e8cb8f5c455b91a9689d7aacdb1ddf60d8c36a9008a1499c0abf1eb5&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255778327.jpg?k=c60e0e05510690d233a5def92b6dfbb6d63350a0f95455a455e87b7dafa97007&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781479.jpg?k=50a11fa2927da5945071121c4258d744b20488e15c0e67d49d6325d104d1397e&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "62",
+          "room_name": "Phòng Superior",
+          "price": 4400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781495.jpg?k=719ad93eb9ff76a628510497edfbb52b7b6fcfc5ec9de6fd0f237eb30889bd28&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781489.jpg?k=6aebef131aca44345d1c1e46343b492a9c1a0cc776f51d40f9c54b219ef34288&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/382611789.jpg?k=c5148eefc81d5d8606d49053d715a767408d0c9812b4929fa836be6560ba48a6&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/382611171.jpg?k=5a841fc83d4523c872b699e6179b5d904c2c6366b8238cd97e0978c2a412cdbf&o=&hp=1"
+          ],
+          "amenities": [
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa",
+            "See view"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "63",
+          "room_name": "Phòng Deluxe",
+          "price": 4900000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/382611518.jpg?k=da3eb2f0498e2aecdd9eea7dab741dae4bff41d5d9b4433828f132baaeb3294e&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/382611236.jpg?k=5bf580b71911bacaefe51711ed4404c87fec7c3f593a911257dc58ea4ebe84c9&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781485.jpg?k=d3512dcb2f303b2caa926f1aa0092df82b36c4422de0b4f7adda8115fe8ca0a7&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Pet friendly",
+            "See view",
+            "Phòng tắm riêng",
+            "Spa"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Deluxe",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "64",
+          "room_name": "Phòng Standard ",
+          "price": 900000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/504610834.jpg?k=adecf10fd24ddc902fe3f42fc5894039858f21bd54065609cf4c5e86a1c05be4&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/382611906.jpg?k=4fd57ac9411d4d7990f74e17f86f54ab197bc8bf32831bace2e730631dc00a07&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781493.jpg?k=df1c52faad5b295b484c2d6c5ce597c93acd9ab0da9caa2df519b13002bf8779&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/255781498.jpg?k=47039ff3c2133e3ed344811a79a807490602316040322f5d1f14a005f68f3963&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Free Wifi", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Standard",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Casa Valentina Hanoi Hotel",
+      "star": 5,
+      "address": "49 Phố Hàng Gà, Hoàn Kiếm, Hà Nội, Việt Nam",
+      "description": "Bạn có thể được hưởng lợi từ chương trình giảm giá Genius tại Khách sạn Casa Valentina Hà Nội! Đăng nhập để lưu. Với khu vườn, sảnh khách chung và sân hiên, Casa Valentina Hà Nội Hotel nằm ở trung tâm Hà Nội, cách Cổng Thành Cổ 700 m. Khách sạn 4 sao này cung cấp Wi-Fi miễn phí, dịch vụ phòng và lễ tân 24 giờ. Dịch vụ ATM, trợ giúp đặc biệt và thu đổi ngoại tệ cũng có tại đây. Các phòng máy lạnh có bàn làm việc, ấm đun nước, tủ lạnh, minibar, két an toàn, TV màn hình phẳng và phòng tắm riêng với vòi sen. Khăn trải giường và khăn tắm được cung cấp. Bữa sáng tự chọn, gọi món và kiểu Mỹ được phục vụ hàng ngày. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Nhà hát múa rối nước Thăng Long, Hồ Hoàn Kiếm và Hoàng thành. Sân bay gần nhất là Sân bay Quốc tế Nội Bài, cách chỗ nghỉ 24 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa",
+        "See view",
+        "Fit Center",
+        "Swimming pool",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Pet friendly",
+        "Spa"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408290.jpg?k=523e470534658571948859fc724e4b300bd1976c4b633290ca20684a795c0e77&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/543408277.jpg?k=20fd5517b13f945eadeab366128eda8e79fe89ab43d738146f0ed65f9a4a5283&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543403405.jpg?k=08636e0454e72dded0f2bfca32ce567e546618b198e79d9bf36ecceac180abf2&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "71",
+          "room_name": "Phòng Standard ",
+          "price": 1680000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/543408260.jpg?k=804ba19af90e6dead3c4af73072d6cadad4c35b368bf6b12278158605ef658ba&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408270.jpg?k=759ccf1cda9ffc8261b07d58d98a36ed6a5b152c2efe0c319eedc193fb07b7fb&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408223.jpg?k=5a84392d538075ed02f295d48098fae3c172572f92f0562a9058c8e4982806ee&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408227.jpg?k=91b98f04d69c6e0841a4c4260fa158c569f0ced436605fefbaeefb582f1522e0&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "72",
+          "room_name": "Phòng Superior",
+          "price": 6400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543403393.jpg?k=096d34362ab72a3bfdb1aa19ba7309ba224f7ebe7026d370e6b2beba0af83c48&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408230.jpg?k=9815210f14afe09ddab0b6434c3531ef811cac14dbe837065be5349e9bfc5c75&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/540600802.jpg?k=a993802e87f5370a639700234691f74f5a40fa9466bf9a87d2e5f07046ed0846&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408231.jpg?k=ad525f3d7b6f7d7f1f22123d17c1e93292acf7b9c9252048508dc38c828267bd&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Pet friendly",
+            "See view",
+            "Swimming pool",
+            "Parking"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "73",
+          "room_name": "Phòng Deluxe",
+          "price": 9900000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408231.jpg?k=ad525f3d7b6f7d7f1f22123d17c1e93292acf7b9c9252048508dc38c828267bd&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408228.jpg?k=10bbccd5bc42803f52c62bb74314aa6e12567f5750514dba37f67147434850ba&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408226.jpg?k=a9670ef1716b486bf7d786fda5221eac913d3306b668e9c298f166031ce5d5e7&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408216.jpg?k=acbc5df66423ec4dd1e77853b8b68d9a1b95c8ab0dcd5ec494a930af7a8e5892&o=&hp=1"
+          ],
+          "amenities": [
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa",
+            "See view",
+            "Fit Center",
+            "Swimming pool",
+            "TV",
+            "Phòng tắm riêng",
+            "Ban công",
+            "Pet friendly",
+            "Spa"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Deluxe",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "74",
+          "room_name": "Phòng Standard ",
+          "price": 900000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408217.jpg?k=21f50779f908eba2c0f37cbf7586fffd0bbc6c107b0f6220d58f0fcb83c94152&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408218.jpg?k=7b6dc3950f2b12c1d9a2ca3d6e1b41c882f112752b15454fcd568a5443744f5b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408213.jpg?k=a26bc32cf5fbd21e777e9b3bbccdb00c0699bad6338c9c73ed1c5148b3de087f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/543408205.jpg?k=e50945100b4c7f55b611cfb024a4735dd607ec7683e8be5b21d9d77ccb7c1df5&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Free Wifi", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Standard",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "The Now Boutique Hotel & Apartment 1",
+      "star": 4,
+      "address": "Kiệt 55/15 Ngũ Hành Sơn, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng",
+      "description": "Phòng cao cấp với không gian rộng lớn",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Spa",
+        "See view",
+        "Fit Center",
+        "Spa",
+        "Swimming pool",
+        "Mini bar",
+        "Pet friendly"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536090093.jpg?k=cbfdd91a32b5ee584ca89d35245d3433e14150bf9bc73d1203e22e98c6fa0f23&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089445.jpg?k=3fd0d06938fe6906d5080817c9addebfbce09fb84c8b2c091b9cbf1a2bce41a4&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "81",
+          "room_name": "Phòng Standard ",
+          "price": 1680000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534735778.jpg?k=8cc096f9f4c8751b93f9f8553c3ba3265328e5f8424bea99eb77842bc7790212&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089570.jpg?k=076bb343d2c52fa1979c1cfc1e844d7e44e47ddd095aaa99b5e77f53b56de455&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534736088.jpg?k=1920aa78f9743c758943565b76bccf949e9c5b614ff1d26feb12cabda501f1fc&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Le House Boutique Hotel 1",
+      "star": 5,
+      "address": "85 - 87 Hà Bông, Đà Nẵng, Việt Nam",
+      "description": "Bạn có thể được hưởng lợi từ chương trình giảm giá Genius tại Le House Boutique Hotel! Đăng nhập để lưu. Tọa lạc tại khu Bãi biển Mỹ Khê ở Đà Nẵng, cách Cầu Sông Hàn 2 km, Le House Boutique Hotel cung cấp các phòng máy lạnh và Wi-Fi miễn phí trong toàn bộ khuôn viên. Có một quán bar trên trang web. Chỗ đỗ xe riêng có sẵn ngay trong khuôn viên. Tất cả các phòng đều được trang bị truyền hình cáp. Một số phòng có khu vực tiếp khách để thư giãn. Một số có tầm nhìn ra biển hoặc thành phố. Phòng tắm riêng có bồn tắm hoặc vòi sen. Dép và đồ vệ sinh cá nhân miễn phí cũng được cung cấp. Lễ tân mở cửa 24 giờ mỗi ngày. House Boutique Hotel cách Bảo tàng Chăm 2,4 km, cách Bãi biển Mỹ An 3 km và cách sân bay gần nhất là sân bay quốc tế Đà Nẵng 5 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111556617.jpg?k=bfaa41e41235d81be15e353b69bf62f423b154f68cfe0f13e6cb4b75b6a16ba1&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111559688.jpg?k=9ce2130cd828fa02ab294d193d208928186b5c7c089ca3a46b891c89a9608f99&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377409184.jpg?k=77a9b368904910be8297042088d40dce7e032520e8eecfb1d22eb28865330799&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/369141240.jpg?k=0c09c6540961af9c8f644fcb3f4679b45a07b8d14b959c427184a97f5fa2a0b5&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "91",
+          "room_name": "Phòng Standard ",
+          "price": 1280000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161853625.jpg?k=560ff6c2ee5d207333993de4d51cb61bb38367ce26326f05e707c59859c50da2&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211730.jpg?k=b4fa6ce58174166da23fc887c2ee898321a23f0ecc77a5c65e1d9569bff139d8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161942622.jpg?k=acff95599109190eb9a611b4245c09f923f6043de2cc92184be557788a49921e&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "92",
+          "room_name": "Phòng Superior",
+          "price": 5400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390077.jpg?k=ebe3b4655ec899d11eb0a4b3d37cb4f282ae0c5b6361ef8ec0125dcee812169f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390072.jpg?k=5487009b59740c626664232a3c984a0f68a84e8dec2cc1051e66f423b399d26a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161852112.jpg?k=3a6bbaaab852ffeaf6ee2730b47401969d42b31c7cd5a480bad31268a235d697&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/381640124.jpg?k=0b60c3ec3d5c553811e33ecd489243f8b41a4e9397e7f2f43f9520b2217e5939&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Pet friendly",
+            "See view",
+            "Swimming pool",
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "93",
+          "room_name": "Phòng Deluxe",
+          "price": 3700000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161855187.jpg?k=c2418459db6f72445ad066a75a2fe418f3cac08047c9711ad6893f9414f7452f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211738.jpg?k=cf69a48498aaeb592377aebedac750878d305dca610c9baecf091be3638977dd&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Pet friendly",
+            "See view",
+            "Phòng tắm riêng"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Deluxe",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "94",
+          "room_name": "Phòng Standard ",
+          "price": 1100000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161849390.jpg?k=fbf7194ee9c46caa912257a1781803d8b847578056e91757c2fa10512e11b1c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168214860.jpg?k=255eedea6d7063b234df6f8320aeaebf21afe3eae1dd5013841442b86d8561d7&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Free Wifi", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Standard",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Romo Hotel",
+      "star": 2,
+      "address": "456 XYZ Street, City",
+      "description": "Phòng cao cấp với không gian rộng lớn",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa",
+        "Swimming pool",
+        "Mini bar",
+        "Ban công",
+        "TV"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/501722597.jpg?k=e7919c209ed9acfd13048fcdc74d42047ad1db19f5d85f6f47b440c3c9ac8f43&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/501722597.jpg?k=e7919c209ed9acfd13048fcdc74d42047ad1db19f5d85f6f47b440c3c9ac8f43&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474828075.jpg?k=66ba4b8a73397d71ed4936602cbe4a0af75bd92628e6e7812e85da1ed81b2d25&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "101",
+          "room_name": "Phòng Standard ",
+          "price": 1080000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/477515575.jpg?k=f58b2218816d6fa0a2b6f851d1d7853939a6c525dff03a9ef7fb9e151679c566&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/492198908.jpg?k=d32b00595d1224d33abdf5cda6c5bcf070c0c1d03c98390f68a8959f17dd75eb&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/492198908.jpg?k=d32b00595d1224d33abdf5cda6c5bcf070c0c1d03c98390f68a8959f17dd75eb&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/503063477.jpg?k=6a247a3f3dee7bda42f2ec44c8060d82e6c4551c8abe29bd522abcfa1a53fdd1&o=&hp=1"
+          ],
+          "amenities": [
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa",
+            "Swimming pool",
+            "Mini bar"
+          ],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "102",
+          "room_name": "Phòng Superior",
+          "price": 1400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/503063475.jpg?k=3059092eac73e20810a878723489469caa25f9d4bddc0db160fb662400835f7b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/503063466.jpg?k=b8188edac05da443f7f30df56026ba548477a21cb8779499897c948abab3e5f6&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/504600944.jpg?k=51ea63b589548e6510a623a61a45c26606b2f1cc8dac9c7f1b2e665de8505bf8&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "The Now Boutique Hotel & Apartment 2",
+      "star": 4,
+      "address": "Kiệt 55/15 Ngũ Hành Sơn, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng",
+      "description": "Phòng cao cấp với không gian rộng lớn",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Spa",
+        "See view",
+        "Fit Center",
+        "Spa",
+        "Swimming pool",
+        "Mini bar",
+        "Pet friendly"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536090093.jpg?k=cbfdd91a32b5ee584ca89d35245d3433e14150bf9bc73d1203e22e98c6fa0f23&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089445.jpg?k=3fd0d06938fe6906d5080817c9addebfbce09fb84c8b2c091b9cbf1a2bce41a4&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "81",
+          "room_name": "Phòng Standard ",
+          "price": 1680000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534735778.jpg?k=8cc096f9f4c8751b93f9f8553c3ba3265328e5f8424bea99eb77842bc7790212&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089570.jpg?k=076bb343d2c52fa1979c1cfc1e844d7e44e47ddd095aaa99b5e77f53b56de455&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534736088.jpg?k=1920aa78f9743c758943565b76bccf949e9c5b614ff1d26feb12cabda501f1fc&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Le House Boutique Hotel 2",
+      "star": 5,
+      "address": "85 - 87 Hà Bông, Đà Nẵng, Việt Nam",
+      "description": "Bạn có thể được hưởng lợi từ chương trình giảm giá Genius tại Le House Boutique Hotel! Đăng nhập để lưu. Tọa lạc tại khu Bãi biển Mỹ Khê ở Đà Nẵng, cách Cầu Sông Hàn 2 km, Le House Boutique Hotel cung cấp các phòng máy lạnh và Wi-Fi miễn phí trong toàn bộ khuôn viên. Có một quán bar trên trang web. Chỗ đỗ xe riêng có sẵn ngay trong khuôn viên. Tất cả các phòng đều được trang bị truyền hình cáp. Một số phòng có khu vực tiếp khách để thư giãn. Một số có tầm nhìn ra biển hoặc thành phố. Phòng tắm riêng có bồn tắm hoặc vòi sen. Dép và đồ vệ sinh cá nhân miễn phí cũng được cung cấp. Lễ tân mở cửa 24 giờ mỗi ngày. House Boutique Hotel cách Bảo tàng Chăm 2,4 km, cách Bãi biển Mỹ An 3 km và cách sân bay gần nhất là sân bay quốc tế Đà Nẵng 5 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111556617.jpg?k=bfaa41e41235d81be15e353b69bf62f423b154f68cfe0f13e6cb4b75b6a16ba1&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111559688.jpg?k=9ce2130cd828fa02ab294d193d208928186b5c7c089ca3a46b891c89a9608f99&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377409184.jpg?k=77a9b368904910be8297042088d40dce7e032520e8eecfb1d22eb28865330799&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/369141240.jpg?k=0c09c6540961af9c8f644fcb3f4679b45a07b8d14b959c427184a97f5fa2a0b5&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "91",
+          "room_name": "Phòng Standard ",
+          "price": 1280000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161853625.jpg?k=560ff6c2ee5d207333993de4d51cb61bb38367ce26326f05e707c59859c50da2&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211730.jpg?k=b4fa6ce58174166da23fc887c2ee898321a23f0ecc77a5c65e1d9569bff139d8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161942622.jpg?k=acff95599109190eb9a611b4245c09f923f6043de2cc92184be557788a49921e&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "92",
+          "room_name": "Phòng Superior",
+          "price": 5400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390077.jpg?k=ebe3b4655ec899d11eb0a4b3d37cb4f282ae0c5b6361ef8ec0125dcee812169f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390072.jpg?k=5487009b59740c626664232a3c984a0f68a84e8dec2cc1051e66f423b399d26a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161852112.jpg?k=3a6bbaaab852ffeaf6ee2730b47401969d42b31c7cd5a480bad31268a235d697&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/381640124.jpg?k=0b60c3ec3d5c553811e33ecd489243f8b41a4e9397e7f2f43f9520b2217e5939&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Pet friendly",
+            "See view",
+            "Swimming pool",
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "93",
+          "room_name": "Phòng Deluxe",
+          "price": 3700000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161855187.jpg?k=c2418459db6f72445ad066a75a2fe418f3cac08047c9711ad6893f9414f7452f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211738.jpg?k=cf69a48498aaeb592377aebedac750878d305dca610c9baecf091be3638977dd&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Pet friendly",
+            "See view",
+            "Phòng tắm riêng"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Deluxe",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "94",
+          "room_name": "Phòng Standard ",
+          "price": 1100000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161849390.jpg?k=fbf7194ee9c46caa912257a1781803d8b847578056e91757c2fa10512e11b1c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168214860.jpg?k=255eedea6d7063b234df6f8320aeaebf21afe3eae1dd5013841442b86d8561d7&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Free Wifi", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Standard",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },{
+      "id": "18",
+      "name": "The Now Boutique Hotel & Apartment 3",
+      "star": 4,
+      "address": "Kiệt 55/15 Ngũ Hành Sơn, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng",
+      "description": "Phòng cao cấp với không gian rộng lớn",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Spa",
+        "See view",
+        "Fit Center",
+        "Spa",
+        "Swimming pool",
+        "Mini bar",
+        "Pet friendly"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536090093.jpg?k=cbfdd91a32b5ee584ca89d35245d3433e14150bf9bc73d1203e22e98c6fa0f23&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089445.jpg?k=3fd0d06938fe6906d5080817c9addebfbce09fb84c8b2c091b9cbf1a2bce41a4&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "81",
+          "room_name": "Phòng Standard ",
+          "price": 1680000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534735778.jpg?k=8cc096f9f4c8751b93f9f8553c3ba3265328e5f8424bea99eb77842bc7790212&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089570.jpg?k=076bb343d2c52fa1979c1cfc1e844d7e44e47ddd095aaa99b5e77f53b56de455&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534736088.jpg?k=1920aa78f9743c758943565b76bccf949e9c5b614ff1d26feb12cabda501f1fc&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Le House Boutique Hotel 3",
+      "star": 5,
+      "address": "85 - 87 Hà Bông, Đà Nẵng, Việt Nam",
+      "description": "Bạn có thể được hưởng lợi từ chương trình giảm giá Genius tại Le House Boutique Hotel! Đăng nhập để lưu. Tọa lạc tại khu Bãi biển Mỹ Khê ở Đà Nẵng, cách Cầu Sông Hàn 2 km, Le House Boutique Hotel cung cấp các phòng máy lạnh và Wi-Fi miễn phí trong toàn bộ khuôn viên. Có một quán bar trên trang web. Chỗ đỗ xe riêng có sẵn ngay trong khuôn viên. Tất cả các phòng đều được trang bị truyền hình cáp. Một số phòng có khu vực tiếp khách để thư giãn. Một số có tầm nhìn ra biển hoặc thành phố. Phòng tắm riêng có bồn tắm hoặc vòi sen. Dép và đồ vệ sinh cá nhân miễn phí cũng được cung cấp. Lễ tân mở cửa 24 giờ mỗi ngày. House Boutique Hotel cách Bảo tàng Chăm 2,4 km, cách Bãi biển Mỹ An 3 km và cách sân bay gần nhất là sân bay quốc tế Đà Nẵng 5 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111556617.jpg?k=bfaa41e41235d81be15e353b69bf62f423b154f68cfe0f13e6cb4b75b6a16ba1&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111559688.jpg?k=9ce2130cd828fa02ab294d193d208928186b5c7c089ca3a46b891c89a9608f99&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377409184.jpg?k=77a9b368904910be8297042088d40dce7e032520e8eecfb1d22eb28865330799&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/369141240.jpg?k=0c09c6540961af9c8f644fcb3f4679b45a07b8d14b959c427184a97f5fa2a0b5&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "91",
+          "room_name": "Phòng Standard ",
+          "price": 1280000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161853625.jpg?k=560ff6c2ee5d207333993de4d51cb61bb38367ce26326f05e707c59859c50da2&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211730.jpg?k=b4fa6ce58174166da23fc887c2ee898321a23f0ecc77a5c65e1d9569bff139d8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161942622.jpg?k=acff95599109190eb9a611b4245c09f923f6043de2cc92184be557788a49921e&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "92",
+          "room_name": "Phòng Superior",
+          "price": 5400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390077.jpg?k=ebe3b4655ec899d11eb0a4b3d37cb4f282ae0c5b6361ef8ec0125dcee812169f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390072.jpg?k=5487009b59740c626664232a3c984a0f68a84e8dec2cc1051e66f423b399d26a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161852112.jpg?k=3a6bbaaab852ffeaf6ee2730b47401969d42b31c7cd5a480bad31268a235d697&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/381640124.jpg?k=0b60c3ec3d5c553811e33ecd489243f8b41a4e9397e7f2f43f9520b2217e5939&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Pet friendly",
+            "See view",
+            "Swimming pool",
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "93",
+          "room_name": "Phòng Deluxe",
+          "price": 3700000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161855187.jpg?k=c2418459db6f72445ad066a75a2fe418f3cac08047c9711ad6893f9414f7452f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211738.jpg?k=cf69a48498aaeb592377aebedac750878d305dca610c9baecf091be3638977dd&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Pet friendly",
+            "See view",
+            "Phòng tắm riêng"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Deluxe",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "94",
+          "room_name": "Phòng Standard ",
+          "price": 1100000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161849390.jpg?k=fbf7194ee9c46caa912257a1781803d8b847578056e91757c2fa10512e11b1c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168214860.jpg?k=255eedea6d7063b234df6f8320aeaebf21afe3eae1dd5013841442b86d8561d7&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Free Wifi", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Standard",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    },{
+      "id": "20",
+      "name": "The Now Boutique Hotel & Apartment 4",
+      "star": 4,
+      "address": "Kiệt 55/15 Ngũ Hành Sơn, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng",
+      "description": "Phòng cao cấp với không gian rộng lớn",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "TV",
+        "Phòng tắm riêng",
+        "Ban công",
+        "Spa",
+        "See view",
+        "Fit Center",
+        "Spa",
+        "Swimming pool",
+        "Mini bar",
+        "Pet friendly"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536090093.jpg?k=cbfdd91a32b5ee584ca89d35245d3433e14150bf9bc73d1203e22e98c6fa0f23&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089575.jpg?k=e29c244fc7ed798c549a04d857cf64ab5f7c344e4fee558ba1999946ed9cf067&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089445.jpg?k=3fd0d06938fe6906d5080817c9addebfbce09fb84c8b2c091b9cbf1a2bce41a4&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "81",
+          "room_name": "Phòng Standard ",
+          "price": 1680000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534735778.jpg?k=8cc096f9f4c8751b93f9f8553c3ba3265328e5f8424bea99eb77842bc7790212&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/536089570.jpg?k=076bb343d2c52fa1979c1cfc1e844d7e44e47ddd095aaa99b5e77f53b56de455&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/534736088.jpg?k=1920aa78f9743c758943565b76bccf949e9c5b614ff1d26feb12cabda501f1fc&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Le House Boutique Hotel 4",
+      "star": 3,
+      "address": "85 - 87 Hà Bông, Đà Nẵng, Việt Nam",
+      "description": "Bạn có thể được hưởng lợi từ chương trình giảm giá Genius tại Le House Boutique Hotel! Đăng nhập để lưu. Tọa lạc tại khu Bãi biển Mỹ Khê ở Đà Nẵng, cách Cầu Sông Hàn 2 km, Le House Boutique Hotel cung cấp các phòng máy lạnh và Wi-Fi miễn phí trong toàn bộ khuôn viên. Có một quán bar trên trang web. Chỗ đỗ xe riêng có sẵn ngay trong khuôn viên. Tất cả các phòng đều được trang bị truyền hình cáp. Một số phòng có khu vực tiếp khách để thư giãn. Một số có tầm nhìn ra biển hoặc thành phố. Phòng tắm riêng có bồn tắm hoặc vòi sen. Dép và đồ vệ sinh cá nhân miễn phí cũng được cung cấp. Lễ tân mở cửa 24 giờ mỗi ngày. House Boutique Hotel cách Bảo tàng Chăm 2,4 km, cách Bãi biển Mỹ An 3 km và cách sân bay gần nhất là sân bay quốc tế Đà Nẵng 5 km.",
+      "amenities": [
+        "Free Wifi",
+        "Restaurant",
+        "Parking",
+        "Spa"
+      ],
+      "image": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111556617.jpg?k=bfaa41e41235d81be15e353b69bf62f423b154f68cfe0f13e6cb4b75b6a16ba1&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/111559688.jpg?k=9ce2130cd828fa02ab294d193d208928186b5c7c089ca3a46b891c89a9608f99&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377409184.jpg?k=77a9b368904910be8297042088d40dce7e032520e8eecfb1d22eb28865330799&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/369141240.jpg?k=0c09c6540961af9c8f644fcb3f4679b45a07b8d14b959c427184a97f5fa2a0b5&o=&hp=1"
+      ],
+      "rooms": [
+        {
+          "room_id": "91",
+          "room_name": "Phòng Standard ",
+          "price": 1280000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161853625.jpg?k=560ff6c2ee5d207333993de4d51cb61bb38367ce26326f05e707c59859c50da2&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211730.jpg?k=b4fa6ce58174166da23fc887c2ee898321a23f0ecc77a5c65e1d9569bff139d8&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161942622.jpg?k=acff95599109190eb9a611b4245c09f923f6043de2cc92184be557788a49921e&o=&hp=1"
+          ],
+          "amenities": ["TV", "Phòng tắm riêng", "Ban công"],
+          "description": "Phòng sang trọng với đầy đủ tiện nghi",
+          "guests": 2,
+          "beds": 1,
+          "room_type": "Standard",
+          "quantity": 10,
+          "discount": 10
+        },
+        {
+          "room_id": "92",
+          "room_name": "Phòng Superior",
+          "price": 5400000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390077.jpg?k=ebe3b4655ec899d11eb0a4b3d37cb4f282ae0c5b6361ef8ec0125dcee812169f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164390072.jpg?k=5487009b59740c626664232a3c984a0f68a84e8dec2cc1051e66f423b399d26a&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161852112.jpg?k=3a6bbaaab852ffeaf6ee2730b47401969d42b31c7cd5a480bad31268a235d697&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/381640124.jpg?k=0b60c3ec3d5c553811e33ecd489243f8b41a4e9397e7f2f43f9520b2217e5939&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Pet friendly",
+            "See view",
+            "Swimming pool",
+            "Free Wifi",
+            "Restaurant",
+            "Parking",
+            "Spa"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Superior",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "93",
+          "room_name": "Phòng Deluxe",
+          "price": 3700000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161855187.jpg?k=c2418459db6f72445ad066a75a2fe418f3cac08047c9711ad6893f9414f7452f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168211738.jpg?k=cf69a48498aaeb592377aebedac750878d305dca610c9baecf091be3638977dd&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1"
+          ],
+          "amenities": [
+            "TV",
+            "Ban công",
+            "Spa",
+            "Pet friendly",
+            "See view",
+            "Phòng tắm riêng"
+          ],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Deluxe",
+          "quantity": 5,
+          "discount": 15
+        },
+        {
+          "room_id": "94",
+          "room_name": "Phòng Standard ",
+          "price": 1100000,
+          "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168166131.jpg?k=1d4183baaed85fb2f44c5d673b0e5843b30e6cd1e0b11b8e7326f71cf4ecb48b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/161849390.jpg?k=fbf7194ee9c46caa912257a1781803d8b847578056e91757c2fa10512e11b1c0&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/168214860.jpg?k=255eedea6d7063b234df6f8320aeaebf21afe3eae1dd5013841442b86d8561d7&o=&hp=1"
+          ],
+          "amenities": ["TV", "Ban công", "Free Wifi", "Parking"],
+          "description": "Phòng cao cấp với không gian rộng lớn",
+          "guests": 4,
+          "beds": 2,
+          "room_type": "Standard",
+          "quantity": 5,
+          "discount": 15
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "customer_name": "Người đặt A",
+      "check_in_date": "2024-04-10",
+      "check_out_date": "2024-04-15",
+      "id": "8",
+      "room_id": "81"
+    },
+    {
+      "customer_name": "Người đặt B",
+      "check_in_date": "2024-05-20",
+      "check_out_date": "2024-05-25",
+      "id": "3",
+      "room_id": "32"
+    }
+  ],
+  "province": [
+    {
+      "exitcode": 1,
+      "data": {
+        "nItems": 63,
+        "nPages": -63,
+        "data": [
+          {
+            "_id": "60eaaa6f1173335842c35663",
+            "name": "An Giang",
+            "slug": "an-giang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh An Giang",
+            "code": "89",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3565b",
+            "name": "Bà Rịa - Vũng Tàu",
+            "slug": "ba-ria---vung-tau",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bà Rịa - Vũng Tàu",
+            "code": "77",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35668",
+            "name": "Bạc Liêu",
+            "slug": "bac-lieu",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bạc Liêu",
+            "code": "95",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35639",
+            "name": "Bắc Giang",
+            "slug": "bac-giang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bắc Giang",
+            "code": "24",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3562e",
+            "name": "Bắc Kạn",
+            "slug": "bac-kan",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bắc Kạn",
+            "code": "06",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3563c",
+            "name": "Bắc Ninh",
+            "slug": "bac-ninh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bắc Ninh",
+            "code": "27",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3565f",
+            "name": "Bến Tre",
+            "slug": "ben-tre",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bến Tre",
+            "code": "83",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35659",
+            "name": "Bình Dương",
+            "slug": "binh-duong",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bình Dương",
+            "code": "74",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3564d",
+            "name": "Bình Định",
+            "slug": "binh-dinh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bình Định",
+            "code": "52",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35657",
+            "name": "Bình Phước",
+            "slug": "binh-phuoc",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bình Phước",
+            "code": "70",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35651",
+            "name": "Bình Thuận",
+            "slug": "binh-thuan",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "code": "60",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35669",
+            "name": "Cà Mau",
+            "slug": "ca-mau",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Cà Mau",
+            "code": "96",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3562d",
+            "name": "Cao Bằng",
+            "slug": "cao-bang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Cao Bằng",
+            "code": "04",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35665",
+            "name": "Cần Thơ",
+            "slug": "can-tho",
+            "type": "thanh-pho",
+            "name_with_type": "Thành phố Cần Thơ",
+            "code": "92",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3564a",
+            "name": "Đà Nẵng",
+            "slug": "da-nang",
+            "type": "thanh-pho",
+            "name_with_type": "Thành phố Đà Nẵng",
+            "code": "48",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35654",
+            "name": "Đắk Lắk",
+            "slug": "dak-lak",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Đắk Lắk",
+            "code": "66",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35655",
+            "name": "Đắk Nông",
+            "slug": "dak-nong",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Đắk Nông",
+            "code": "67",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35631",
+            "name": "Điện Biên",
+            "slug": "dien-bien",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Điện Biên",
+            "code": "11",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3565a",
+            "name": "Đồng Nai",
+            "slug": "dong-nai",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Đồng Nai",
+            "code": "75",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35662",
+            "name": "Đồng Tháp",
+            "slug": "dong-thap",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Đồng Tháp",
+            "code": "87",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35653",
+            "name": "Gia Lai",
+            "slug": "gia-lai",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Gia Lai",
+            "code": "64",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3562c",
+            "name": "Hà Giang",
+            "slug": "ha-giang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hà Giang",
+            "code": "02",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35641",
+            "name": "Hà Nam",
+            "slug": "ha-nam",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hà Nam",
+            "code": "35",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3562b",
+            "name": "Hà Nội",
+            "slug": "ha-noi",
+            "type": "thanh-pho",
+            "name_with_type": "Thành phố Hà Nội",
+            "code": "01",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35646",
+            "name": "Hà Tĩnh",
+            "slug": "ha-tinh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hà Tĩnh",
+            "code": "42",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3563d",
+            "name": "Hải Dương",
+            "slug": "hai-duong",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hải Dương",
+            "code": "30",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3563e",
+            "name": "Hải Phòng",
+            "slug": "hai-phong",
+            "type": "thanh-pho",
+            "name_with_type": "Thành phố Hải Phòng",
+            "code": "31",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35666",
+            "name": "Hậu Giang",
+            "slug": "hau-giang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hậu Giang",
+            "code": "93",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35635",
+            "name": "Hoà Bình",
+            "slug": "hoa-binh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hoà Bình",
+            "code": "17",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3565c",
+            "name": "Hồ Chí Minh",
+            "slug": "ho-chi-minh",
+            "type": "thanh-pho",
+            "name_with_type": "Thành phố Hồ Chí Minh",
+            "code": "79",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3563f",
+            "name": "Hưng Yên",
+            "slug": "hung-yen",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Hưng Yên",
+            "code": "33",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3564f",
+            "name": "Khánh Hòa",
+            "slug": "khanh-hoa",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Khánh Hòa",
+            "code": "56",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35664",
+            "name": "Kiên Giang",
+            "slug": "kien-giang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Kiên Giang",
+            "code": "91",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35652",
+            "name": "Kon Tum",
+            "slug": "kon-tum",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Kon Tum",
+            "code": "62",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35632",
+            "name": "Lai Châu",
+            "slug": "lai-chau",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Lai Châu",
+            "code": "12",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35637",
+            "name": "Lạng Sơn",
+            "slug": "lang-son",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Lạng Sơn",
+            "code": "20",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35630",
+            "name": "Lào Cai",
+            "slug": "lao-cai",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Lào Cai",
+            "code": "10",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35656",
+            "name": "Lâm Đồng",
+            "slug": "lam-dong",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Lâm Đồng",
+            "code": "68",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3565d",
+            "name": "Long An",
+            "slug": "long-an",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Long An",
+            "code": "80",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35642",
+            "name": "Nam Định",
+            "slug": "nam-dinh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Nam Định",
+            "code": "36",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35645",
+            "name": "Nghệ An",
+            "slug": "nghe-an",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Nghệ An",
+            "code": "40",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35643",
+            "name": "Ninh Bình",
+            "slug": "ninh-binh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Ninh Bình",
+            "code": "37",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35650",
+            "name": "Ninh Thuận",
+            "slug": "ninh-thuan",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Ninh Thuận",
+            "code": "58",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3563a",
+            "name": "Phú Thọ",
+            "slug": "phu-tho",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Phú Thọ",
+            "code": "25",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3564e",
+            "name": "Phú Yên",
+            "slug": "phu-yen",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Phú Yên",
+            "code": "54",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35647",
+            "name": "Quảng Bình",
+            "slug": "quang-binh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Quảng Bình",
+            "code": "44",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3564b",
+            "name": "Quảng Nam",
+            "slug": "quang-nam",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Quảng Nam",
+            "code": "49",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3564c",
+            "name": "Quảng Ngãi",
+            "slug": "quang-ngai",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Quảng Ngãi",
+            "code": "51",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35638",
+            "name": "Quảng Ninh",
+            "slug": "quang-ninh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Quảng Ninh",
+            "code": "22",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35648",
+            "name": "Quảng Trị",
+            "slug": "quang-tri",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Quảng Trị",
+            "code": "45",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35667",
+            "name": "Sóc Trăng",
+            "slug": "soc-trang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Sóc Trăng",
+            "code": "94",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35633",
+            "name": "Sơn La",
+            "slug": "son-la",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Sơn La",
+            "code": "14",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35658",
+            "name": "Tây Ninh",
+            "slug": "tay-ninh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Tây Ninh",
+            "code": "72",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35640",
+            "name": "Thái Bình",
+            "slug": "thai-binh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Thái Bình",
+            "code": "34",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35636",
+            "name": "Thái Nguyên",
+            "slug": "thai-nguyen",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Thái Nguyên",
+            "code": "19",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35644",
+            "name": "Thanh Hóa",
+            "slug": "thanh-hoa",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Thanh Hóa",
+            "code": "38",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35649",
+            "name": "Thừa Thiên Huế",
+            "slug": "thua-thien-hue",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Thừa Thiên Huế",
+            "code": "46",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3565e",
+            "name": "Tiền Giang",
+            "slug": "tien-giang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Tiền Giang",
+            "code": "82",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35660",
+            "name": "Trà Vinh",
+            "slug": "tra-vinh",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Trà Vinh",
+            "code": "84",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3562f",
+            "name": "Tuyên Quang",
+            "slug": "tuyen-quang",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Tuyên Quang",
+            "code": "08",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35661",
+            "name": "Vĩnh Long",
+            "slug": "vinh-long",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Vĩnh Long",
+            "code": "86",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c3563b",
+            "name": "Vĩnh Phúc",
+            "slug": "vinh-phuc",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Vĩnh Phúc",
+            "code": "26",
+            "isDeleted": false
+          },
+          {
+            "_id": "60eaaa6f1173335842c35634",
+            "name": "Yên Bái",
+            "slug": "yen-bai",
+            "type": "tinh",
+            "name_with_type": "Tỉnh Yên Bái",
+            "code": "15",
+            "isDeleted": false
+          }
+        ]
+      },
+      "message": "Get all items successful"
+    }
+  ]
+}
